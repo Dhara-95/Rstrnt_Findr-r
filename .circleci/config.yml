@@ -38,9 +38,9 @@ jobs:
       #     name: Download Selenium Standalone Server
       #     command: curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
 
-      # - run: 
+      # - run:
       #     name: Install Java
-      #     command: sudo apt-get install openjdk-8-jre 
+      #     command: sudo apt-get install openjdk-8-jre
 
       # - run:
       #     name: Start Selenium Standalone Server
@@ -52,7 +52,7 @@ jobs:
           background: true
 
       # run tests!
-      - run: yarn test
+      - run: yarn run test:ci
 # workflows:
 #   # Name the workflow "welcome"
 #   welcome:
