@@ -12,7 +12,7 @@ const AddressInput = () => {
           placeholder="W13 3RH"
         />
         <button
-          className="submit-button rounded py-1.5 px-4"
+          className="submit-button rounded py-1.5 px-4 bg-teal"
           type="button"
           value="Find"
         >
