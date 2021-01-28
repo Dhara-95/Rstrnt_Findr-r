@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
-import "./App.css";
+import React, { useState } from "react";
 
-function App() {
-
-  const [imageArray, updateImageArray] = useState(['image 1', 'image 2', 'image 3', 'image 4']);
+const Homepage = () => {
+  const [imageArray, updateImageArray] = useState([
+    "image 1",
+    "image 2",
+    "image 3",
+    "image 4",
+  ]);
 
   return (
-    <div className="App container w-4/5">
+    <>
       <h1 className="text-5xl text-grey py-6">Rstrnt Findr-r</h1>
 
       <div className="py-8 flex justify-around items-center w-1/2 mx-auto">
@@ -31,16 +34,13 @@ function App() {
       <div className="py-8">
         <h2 className="text-2xl text-grey p-6">Find By Cuisine</h2>
         <div className="image-container text-grey flex justify-around">
-         {imageArray.map(image => {
-           return(
-            <div className="w-60 h-60 bg-grey rounded-3xl">{image}</div>
-           )
-         } )}
+          {imageArray.map((image) => {
+            return <div className="w-60 h-60 bg-grey rounded-3xl">{image}</div>;
+          })}
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};
 
-export default App;
-
+export default Homepage;
