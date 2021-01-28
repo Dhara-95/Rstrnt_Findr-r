@@ -10,6 +10,12 @@ function App() {
         <input value="Find" type="submit" />
       </form>
       <h2>Find By Cuisine</h2>
+      <div className="image-container">
+        <div>image 1</div>
+        <div>image 2</div>
+        <div>image 3</div>
+        <div>image 4</div>
+      </div>
     </div>
   );
 }
