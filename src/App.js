@@ -33,7 +33,7 @@ function App() {
         <div className="image-container text-grey flex justify-around">
          {imageArray.map(image => {
            return(
-             <div className="w-200px h-200px bg-grey rounded-3xl">{image}</div>
+            <div className="w-60 h-60 bg-grey rounded-3xl">{image}</div>
            )
          } )}
         </div>
@@ -43,3 +43,4 @@ function App() {
 }
 
 export default App;
+
