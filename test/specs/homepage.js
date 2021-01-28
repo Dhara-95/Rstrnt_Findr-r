@@ -15,4 +15,11 @@ describe("homepage", () => {
     const inputField = $('[name="address"]');
     expect(inputField).toExist();
   });
+  
+  it("Has correct text next to input field", () => {
+    browser.url("http://localhost:3000");
+    const span = $("span=Find restaurants near you:");
+    expect(span).toBeDisplayed();
+  });
+  
 });
