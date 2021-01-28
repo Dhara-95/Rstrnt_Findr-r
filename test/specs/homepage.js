@@ -21,5 +21,11 @@ describe("homepage", () => {
     const span = $("span=Find restaurants near you:");
     expect(span).toBeDisplayed();
   });
+
+  it("Has a find button", () => {
+    browser.url("http://localhost:3000");
+    const button = $('[value="Find"]');
+    expect(button).toExist();
+  });
   
 });

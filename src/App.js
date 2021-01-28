@@ -5,7 +5,10 @@ function App() {
     <div className="App">
       <h1>Rstrnt Findr-r</h1>
       <span>Find restaurants near you:</span>
-      <input name="address" type="text" />
+      <form>
+        <input name="address" type="text" />
+        <input value="Find" type="submit"/>
+      </form>
     </div>
   );
 }
