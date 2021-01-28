@@ -14,6 +14,9 @@ module.exports = {
       current: 'currentColor',
       grey: '#ccc',
       black: '#111',
-    }
+    },
+    container: {
+      center: true,
+    },
   }
 };
