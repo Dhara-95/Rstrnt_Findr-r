@@ -33,4 +33,10 @@ describe("homepage", () => {
     const findByCuisineTitle = $("h2=Find By Cuisine");
     expect(findByCuisineTitle).toBeDisplayed();
   });
+
+  it("Should have a container with 4 elements in it", () => {
+    browser.url("http://localhost:3000");
+    const imageContainer = $(".image-container");
+    expect(imageContainer).toHaveChildren(4);
+  });
 });
