@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
@@ -10,13 +10,14 @@ module.exports = {
 
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      grey: '#ccc',
-      black: '#111',
+      transparent: "transparent",
+      current: "currentColor",
+      grey: "#ccc",
+      black: "#111",
+      white: "#FFF",
     },
     container: {
       center: true,
     },
-  }
+  },
 };
