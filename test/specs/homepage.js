@@ -15,7 +15,7 @@ describe("homepage", () => {
     const inputField = $('[name="address"]');
     expect(inputField).toExist();
   });
-  
+
   it("Has correct text next to input field", () => {
     browser.url("http://localhost:3000");
     const span = $("span=Find restaurants near you:");
@@ -27,5 +27,10 @@ describe("homepage", () => {
     const button = $('[value="Find"]');
     expect(button).toExist();
   });
-  
+
+  it("Should have a header ofr find by cuisine", () => {
+    browser.url("http://localhost:3000");
+    const findByCuisineTitle = $("h2=Find By Cuisine");
+    expect(findByCuisineTitle).toBeDisplayed();
+  });
 });
