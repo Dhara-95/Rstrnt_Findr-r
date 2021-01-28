@@ -19,5 +19,11 @@ module.exports = {
     container: {
       center: true,
     },
+    height: {
+      '200px': '200px'
+    },
+    width: {
+      '200px': '200px'
+    }
   },
 };
