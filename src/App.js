@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <span>Find restaurants near you:</span>
       <form>
         <input name="address" type="text" />
-        <input value="Find" type="submit" />
+        <input className="submit-button" value="Find" type="submit" />
       </form>
       <h2>Find By Cuisine</h2>
       <div className="image-container">
