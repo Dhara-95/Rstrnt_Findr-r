@@ -1,9 +1,11 @@
 import React from "react";
 
+import { findRestaurantsLabel, findButtonLabel } from "../../Labels";
+
 const LocationSearchForm = () => {
   return (
     <div className="py-8 flex justify-around items-center w-1/2 mx-auto">
-      <span className="text-grey">Find restaurants near you:</span>
+      <span className="text-grey">{findRestaurantsLabel}</span>
       <div className="rounded bg-white w-1/2 flex py-1 pr-1 pl-5 justify-between">
         <input
           className="w-3/5 focus:outline-none"
@@ -16,7 +18,7 @@ const LocationSearchForm = () => {
           type="button"
           value="Find"
         >
-          Find
+          {findButtonLabel}
         </button>
       </div>
     </div>
