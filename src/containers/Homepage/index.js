@@ -1,13 +1,13 @@
 import React from "react";
 
 import LocationSearchForm from "../LocationSearchForm";
-import CuisineList from "../CuisineList";
+import CuisineListContainer from "../CuisineListContainer";
 
 const Homepage = () => {
   return (
     <>
       <LocationSearchForm />
-      <CuisineList />
+      <CuisineListContainer />
     </>
   );
 };
