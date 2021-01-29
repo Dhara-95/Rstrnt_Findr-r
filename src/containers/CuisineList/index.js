@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import CuisineImage from "../../components/CuisineImage";
+import { findByCuisineLabel } from "../../Labels";
 
 const CuisineList = () => {
   const [imageArray, updateImageArray] = useState([
@@ -11,7 +12,7 @@ const CuisineList = () => {
 
   return (
     <div className="py-8">
-      <h2 className="text-2xl text-grey p-6">Find By Cuisine</h2>
+      <h2 className="text-2xl text-grey p-6">{findByCuisineLabel}</h2>
       <div className="image-container text-grey flex justify-around">
         {imageArray.map((image) => {
           return <CuisineImage image={image} />;
