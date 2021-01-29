@@ -10,7 +10,7 @@ const LocationSearchForm = () => {
       <div className="rounded bg-white w-1/2 flex py-1 pr-1 pl-5 justify-between">
         <input
           className="w-3/5 focus:outline-none"
-          name="address"
+          name="postcode"
           type="text"
           placeholder="W13 3RH"
         />
