@@ -1,5 +1,5 @@
 import React from "react";
-import LocationSearchForm from "../../components/LocationSearchForm";
+import LocationSearchForm from "../LocationSearchForm";
 import CuisineList from "../CuisineList";
 
 const Homepage = () => {
