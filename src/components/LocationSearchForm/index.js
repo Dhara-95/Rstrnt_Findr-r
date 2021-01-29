@@ -1,6 +1,6 @@
 import React from "react";
 
-const AddressInput = () => {
+const LocationSearchForm = () => {
   return (
     <div className="py-8 flex justify-around items-center w-1/2 mx-auto">
       <span className="text-grey">Find restaurants near you:</span>
@@ -23,4 +23,4 @@ const AddressInput = () => {
   );
 };
 
-export default AddressInput;
+export default LocationSearchForm;

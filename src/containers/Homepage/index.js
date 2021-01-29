@@ -1,11 +1,11 @@
 import React from "react";
-import AddressInput from "../../components/AddressInput";
+import LocationSearchForm from "../../components/LocationSearchForm";
 import CuisineList from "../CuisineList";
 
 const Homepage = () => {
   return (
     <>
-      <AddressInput />
+      <LocationSearchForm />
       <CuisineList />
     </>
   );
