@@ -1,9 +1,8 @@
 import React from "react";
-import AddressInput from "../../components/AddressInput/AddressInput";
-import CuisineList from "../CuisineList/CuisineList";
+import AddressInput from "../../components/AddressInput";
+import CuisineList from "../CuisineList";
 
 const Homepage = () => {
-
   return (
     <>
       <AddressInput />
