@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Header from "../../components/Header/Header";
-import Homepage from "../Homepage/Homepage";
+import React from "react";
+import Header from "../../components/Header";
+import Homepage from "../Homepage";
 import "./App.css";
 
 function App() {
