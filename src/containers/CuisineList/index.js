@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import CuisineImage from "../../components/CuisineImage";
 import { findByCuisineLabel } from "../../Labels";
 
