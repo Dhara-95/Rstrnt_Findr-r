@@ -1,6 +1,7 @@
 import React from "react";
 
-import { findRestaurantsLabel, findButtonLabel } from "../../Labels";
+import SubmitButton from "../../components/SubmitButton";
+import { findRestaurantsLabel } from "../../Labels";
 
 const LocationSearchForm = () => {
   return (
@@ -13,13 +14,7 @@ const LocationSearchForm = () => {
           type="text"
           placeholder="W13 3RH"
         />
-        <button
-          className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
-          type="button"
-          value="Find"
-        >
-          {findButtonLabel}
-        </button>
+        <SubmitButton />
       </div>
     </div>
   );
