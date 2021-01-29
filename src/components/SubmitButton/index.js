@@ -1,15 +1,14 @@
 import React from "react";
 
-import { findButtonLabel } from "../../Labels";
-
-const SubmitButton = () => {
+const SubmitButton = (props) => {
+  const { label } = props;
   return (
     <button
       className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
       type="button"
       value="Find"
     >
-      {findButtonLabel}
+      {label}
     </button>
   );
 };
