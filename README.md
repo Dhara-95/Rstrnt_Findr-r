@@ -13,10 +13,15 @@ An web application to find and review restaurants using the [Yelp API](https://w
 ## Tech Stack
 
 [React](https://reactjs.org/docs/getting-started.html)
+
 [CircleCI](https://circleci.com/docs/)
+
 [Webdriver I/O](https://webdriver.io/docs/gettingstarted.html)
+
 [Tailwind CSS](https://tailwindcss.com/)
+
 [React Router](https://reactrouter.com/web/guides/quick-start)
+
 [Apollo GraphQL](https://www.apollographql.com/docs/react/get-started/)
 
 ## User Stories
