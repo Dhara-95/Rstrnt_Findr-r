@@ -19,7 +19,7 @@ const LocationSearchForm = (props) => {
       <span className="text-grey">{findRestaurantsLabel}</span>
       <div className="rounded bg-white lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex py-1 pr-1 pl-5 justify-between">
         <input
-          onChange={(e) => setUserInput(e.target.value)}
+          onChange={(event) => setUserInput(event.target.value)}
           className="w-3/5 focus:outline-none"
           name="postcode"
           type="text"
