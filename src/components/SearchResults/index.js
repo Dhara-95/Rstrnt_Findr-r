@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery } from "@apollo/client";
 
 import { LabelsObject } from "../../Labels";
-import { RESTAURANT_BY_POSTCODE } from "../../graphQL/queries";
+import { RESTAURANT_BY_POSTCODE } from "../../queries";
 
 const SearchResults = (props) => {
   const { userInput } = props;
