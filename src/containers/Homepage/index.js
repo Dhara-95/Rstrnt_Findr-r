@@ -1,7 +1,7 @@
 import React from "react";
 
-import LocationSearchForm from "../LocationSearchForm";
-import CuisineListContainer from "../CuisineListContainer";
+import { LocationSearchForm } from "../LocationSearchForm";
+import { CuisineListContainer } from "../CuisineListContainer";
 
 const Homepage = (props) => {
   const { setUserInput } = props;
@@ -13,4 +13,4 @@ const Homepage = (props) => {
   );
 };
 
-export default Homepage;
+export { Homepage };

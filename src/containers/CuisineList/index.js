@@ -1,6 +1,6 @@
 import React from "react";
 
-import CuisineImage from "../../components/CuisineImage";
+import { CuisineImage } from "../../components/CuisineImage";
 
 const CuisineList = () => {
   const imageArray = ["image 1", "image 2", "image 3", "image 4"];
@@ -14,4 +14,4 @@ const CuisineList = () => {
   );
 };
 
-export default CuisineList;
+export { CuisineList };

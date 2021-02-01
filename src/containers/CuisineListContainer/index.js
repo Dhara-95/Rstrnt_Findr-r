@@ -1,7 +1,7 @@
 import React from "react";
 
 import { LabelsObject } from "../../Labels";
-import CuisineList from "../CuisineList";
+import { CuisineList } from "../CuisineList";
 
 const CuisineListContainer = () => {
   const { findByCuisineLabel } = LabelsObject;
@@ -14,4 +14,4 @@ const CuisineListContainer = () => {
   );
 };
 
-export default CuisineListContainer;
+export { CuisineListContainer };

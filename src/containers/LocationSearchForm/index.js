@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-import SubmitButton from "../../components/SubmitButton";
+import { SubmitButton } from "../../components/SubmitButton";
 import { LabelsObject } from "../../Labels";
 
 const LocationSearchForm = (props) => {
@@ -35,4 +35,4 @@ const LocationSearchForm = (props) => {
   );
 };
 
-export default LocationSearchForm;
+export { LocationSearchForm };
