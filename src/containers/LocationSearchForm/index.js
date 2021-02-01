@@ -2,15 +2,18 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 import SubmitButton from "../../components/SubmitButton";
-import {
-  findRestaurantsLabel,
-  findButtonLabel,
-  searchResultURLLabel,
-} from "../../Labels";
+import { LabelsObject } from "../../Labels";
 
 const LocationSearchForm = (props) => {
   const { setUserInput } = props;
+  const {
+    findRestaurantsLabel,
+    findButtonLabel,
+    searchResultURLLabel,
+  } = LabelsObject;
+
   const history = useHistory();
+
   return (
     <div className="py-8 flex flex-col lg:justify-around lg:flex-row xl:justify-around xl:flex-row 2xl:justify-around 2xl:flex-row items-center w-1/2 mx-auto">
       <span className="text-grey">{findRestaurantsLabel}</span>
