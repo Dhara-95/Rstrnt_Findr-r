@@ -3,10 +3,11 @@ import React from "react";
 import LocationSearchForm from "../LocationSearchForm";
 import CuisineListContainer from "../CuisineListContainer";
 
-const Homepage = () => {
+const Homepage = (props) => {
+  const { setUserInput } = props;
   return (
     <>
-      <LocationSearchForm />
+      <LocationSearchForm setUserInput={setUserInput} />
       <CuisineListContainer />
     </>
   );

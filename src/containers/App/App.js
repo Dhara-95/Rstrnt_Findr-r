@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Header from "../../components/Header";
@@ -7,12 +7,22 @@ import Homepage from "../Homepage";
 import "./App.css";
 
 function App() {
+  const [userInput, setUserInput] = useState("");
+
   return (
     <div className="App container lg:w-4/5">
       <Header />
       <Switch>
-        <Route path={"/"} exact component={Homepage} />
-        <Route path={"/searchresults"} exact component={SearchResults} />
+        <Route
+          path={"/"}
+          exact
+          render={() => <Homepage setUserInput={setUserInput} />}
+        />
+        <Route
+          path={"/searchresults"}
+          exact
+          render={() => <SearchResults userInput={userInput} />}
+        />
       </Switch>
     </div>
   );

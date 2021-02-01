@@ -3,6 +3,7 @@ const headerLabel = "Rstrnt Findr-r";
 const findByCuisineLabel = "Find By Cuisine";
 const findButtonLabel = "Find";
 const searchResultQueryLabel = "Restaurants near ";
+const searchResultURLLabel = "/searchresults";
 
 export {
   findRestaurantsLabel,
@@ -10,4 +11,5 @@ export {
   findByCuisineLabel,
   findButtonLabel,
   searchResultQueryLabel,
+  searchResultURLLabel,
 };
