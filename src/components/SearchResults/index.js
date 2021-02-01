@@ -1,10 +1,12 @@
 import React from "react";
+
 import { useQuery } from "@apollo/client";
-import { searchResultQueryLabel } from "../../Labels";
+import { LabelsObject } from "../../Labels";
 import { RESTAURANT_BY_POSTCODE } from "../../graphQL/queries";
 
 const SearchResults = (props) => {
   const { userInput } = props;
+  const { searchResultQueryLabel } = LabelsObject;
 
   const { loading, error, data } = useQuery(RESTAURANT_BY_POSTCODE, {
     variables: { postcode: userInput },
