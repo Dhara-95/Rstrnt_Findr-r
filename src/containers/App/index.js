@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Header from "../../components/Header";
-import SearchResults from "../../components/SearchResults";
-import Homepage from "../Homepage";
+import { Header } from "../../components/Header";
+import { SearchResults } from "../../components/SearchResults";
+import { Homepage } from "../Homepage";
 import "./App.css";
 
 function App() {
@@ -28,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };

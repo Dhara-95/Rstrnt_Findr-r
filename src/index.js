@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { ApolloProvider } from "@apollo/client";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import App from "./containers/App/App";
-import { client } from "./apolloClient";
+import { App } from "./containers/App";
+import { client } from "./client";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 

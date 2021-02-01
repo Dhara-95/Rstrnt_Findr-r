@@ -1,6 +1,6 @@
 import React from "react";
-
 import { useQuery } from "@apollo/client";
+
 import { LabelsObject } from "../../Labels";
 import { RESTAURANT_BY_POSTCODE } from "../../graphQL/queries";
 
@@ -26,4 +26,4 @@ const SearchResults = (props) => {
   );
 };
 
-export default SearchResults;
+export { SearchResults };
