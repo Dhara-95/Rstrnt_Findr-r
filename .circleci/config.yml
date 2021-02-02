@@ -30,4 +30,10 @@ jobs:
             wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 10 http://localhost:3000
             :
 
-      - run: yarn test
+      - run:
+          name: Run Webdriver tests
+          command: yarn test
+
+      - run:
+          name: Run Snapshot tests
+          command: yarn snap:test

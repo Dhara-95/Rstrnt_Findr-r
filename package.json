@@ -24,6 +24,7 @@
     "build": "craco build",
     "test": "npx wdio wdio.conf.js",
     "snap:test": "jest",
+    "snap:update": "jest --updateSnapshot",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -54,5 +55,10 @@
     "chromedriver": "^88.0.0",
     "react-test-renderer": "^17.0.1",
     "wdio-chromedriver-service": "^6.0.4"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }
