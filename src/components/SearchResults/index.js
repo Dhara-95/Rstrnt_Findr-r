@@ -16,7 +16,7 @@ const SearchResults = (props) => {
           headers: {
             "Content-Type": "application/json",
             Authorization:
-              "Bearer 2jXanN0JhNlrpYgMFcYjR7XU0jcaqXoPBLwWpETv4zyeMaummrCydWM40bTSc0D-dZhV-mMC3t9PuwjY8f63YbqZlRkOauXqP31xf0ft7JEsERye055c5NdExdsOYHYx",
+              "Bearer S1Zn98krZ67DXy-C4ZByWC-hwfPsUu8El_amtr7CX5xjZJ07d-qrhawcvyOBzx1WwKzqK6bfEN7dNu1ynU2b8AcCN5nQGFtQvl0oHpH-g9Wlc2oyGi9jQMzeVtwOYHYx",
             "Accept-Language": "en-US",
           },
           body: JSON.stringify({
