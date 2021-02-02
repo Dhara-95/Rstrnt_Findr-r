@@ -12,8 +12,8 @@ const SearchResults = (props) => {
     variables: { postcode: userInput },
   });
 
-  if (loading) return null;
-  if (error) return `Error! ${error}`;
+  if (loading) console.log(null);
+  if (error) console.log(`Error! ${error}`);
   if (data) console.log(data);
 
   return (
