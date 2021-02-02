@@ -178,23 +178,9 @@ exports.config = {
    * @param {Array.<String>} specs        List of spec file paths that are to be run
    * @param {Object}         browser      instance of created browser/device session
    */
-  before: () => {
-    const mockApiCall = browser.mock(
-      "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/graphql",
-      {
-        method: "post",
-        headers: {
-          authorization:
-            "Bearer S1Zn98krZ67DXy-C4ZByWC-hwfPsUu8El_amtr7CX5xjZJ07d-qrhawcvyOBzx1WwKzqK6bfEN7dNu1ynU2b8AcCN5nQGFtQvl0oHpH-g9Wlc2oyGi9jQMzeVtwOYHYx",
-          "Accept-Language": "en-US",
-        },
-      }
-    );
-    mockApiCall.respond({
-      statusCode: 200,
-      fetchResponse: false,
-    });
-  },
+  // before: () => {
+
+  // },
   /**
    * Runs before a WebdriverIO command gets executed.
    * @param {String} commandName hook command name
