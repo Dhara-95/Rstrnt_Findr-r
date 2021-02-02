@@ -1,6 +1,4 @@
-import { gql } from "@apollo/client";
-
-const RESTAURANT_BY_POSTCODE = gql`
+const RESTAURANT_BY_POSTCODE = `
   query Search($postcode: String) {
     search(term: "restaurants", location: $postcode, limit: 20) {
       total

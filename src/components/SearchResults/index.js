@@ -1,5 +1,4 @@
-import React from "react";
-import { useQuery } from "@apollo/client";
+import React, { useEffect } from "react";
 
 import { LabelsObject } from "../../Labels";
 import { RESTAURANT_BY_POSTCODE } from "../../queries";
@@ -8,13 +7,32 @@ const SearchResults = (props) => {
   const { userInput } = props;
   const { searchResultQueryLabel } = LabelsObject;
 
-  const { loading, error, data } = useQuery(RESTAURANT_BY_POSTCODE, {
-    variables: { postcode: userInput },
-  });
+  useEffect(() => {
+    const fetchData = async () => {
+      const rawResponse = await fetch(
+        "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/graphql",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization:
+              "Bearer 2jXanN0JhNlrpYgMFcYjR7XU0jcaqXoPBLwWpETv4zyeMaummrCydWM40bTSc0D-dZhV-mMC3t9PuwjY8f63YbqZlRkOauXqP31xf0ft7JEsERye055c5NdExdsOYHYx",
+            "Accept-Language": "en-US",
+          },
+          body: JSON.stringify({
+            query: RESTAURANT_BY_POSTCODE,
+            variables: {
+              postcode: userInput,
+            },
+          }),
+        }
+      );
+      const content = await rawResponse.json();
 
-  if (loading) console.log(null);
-  if (error) console.log(`Error! ${error}`);
-  if (data) console.log(data);
+      console.log(content);
+    };
+    fetchData();
+  }, []);
 
   return (
     <div>
