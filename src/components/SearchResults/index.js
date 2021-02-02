@@ -32,7 +32,7 @@ const SearchResults = (props) => {
       console.log(content);
     };
     fetchData();
-  }, []);
+  }, [userInput]);
 
   return (
     <div>
