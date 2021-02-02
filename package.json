@@ -23,6 +23,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "npx wdio wdio.conf.js",
+    "snap:test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,12 +45,14 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
     "@wdio/cli": "^6.12.1",
     "@wdio/local-runner": "^6.12.1",
     "@wdio/mocha-framework": "^6.11.0",
     "@wdio/spec-reporter": "^6.11.0",
     "@wdio/sync": "^6.11.0",
     "chromedriver": "^88.0.0",
+    "react-test-renderer": "^17.0.1",
     "wdio-chromedriver-service": "^6.0.4"
   }
 }
