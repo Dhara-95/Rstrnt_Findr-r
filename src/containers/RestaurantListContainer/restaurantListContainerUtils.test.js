@@ -1,4 +1,4 @@
-import { checkValidImageURL } from "./searchResultsUtils";
+import { checkValidImageURL } from "./restaurantListContainerUtils";
 import { LabelsObject } from "../../Labels";
 
 describe("checkValidImageURL tests", () => {

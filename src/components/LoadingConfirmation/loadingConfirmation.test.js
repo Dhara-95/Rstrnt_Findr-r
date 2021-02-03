@@ -1,5 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
+
 import { LoadingConfirmation } from "./index";
 
 it("displays Loading...", () => {

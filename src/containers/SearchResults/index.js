@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import { businesses } from "../../mocks/dataMock";
-import { checkValidImageURL } from "./searchResultsUtils";
 import { LoadingConfirmation } from "../../components/LoadingConfirmation";
 import { RestaurantsNear } from "../../components/RestaurantsNear";
+import { RestaurantListContainer } from "../RestaurantListContainer";
 
 const SearchResults = (props) => {
   const { userInput } = props;
@@ -20,20 +20,7 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading === true && <LoadingConfirmation />}
-      {restaurantData.length > 0 &&
-        restaurantData.map((restaurant, i) => {
-          return (
-            <div key={i}>
-              <h2 className="text-grey">{restaurant.name}</h2>
-
-              <img
-                src={checkValidImageURL(restaurant.photos[0])}
-                width="150"
-                alt={restaurant.name}
-              />
-            </div>
-          );
-        })}
+      <RestaurantListContainer restaurantData={restaurantData} />
     </>
   );
 };
