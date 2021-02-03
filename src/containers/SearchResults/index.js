@@ -7,12 +7,11 @@ const SearchResults = (props) => {
   const { userInput } = props;
   const { searchResultQueryLabel } = LabelsObject;
   const [restaurantData, updateRestaurantData] = useState([]);
+  const [isLoading, updateLoadingState] = useState(false);
 
   useEffect(() => {
-    fetchRestaurantData(userInput, updateRestaurantData);
+    fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
   }, [userInput]);
-
-  console.log(restaurantData);
 
   return (
     <div>
@@ -20,6 +19,11 @@ const SearchResults = (props) => {
         {searchResultQueryLabel}
         {userInput}
       </h2>
+      {isLoading === true && <h1 className="text-grey">Loading...</h1>}
+      {restaurantData.length > 0 &&
+        restaurantData.map((restaurant) => {
+          return <h2 className="text-grey">{restaurant.name}</h2>;
+        })}
     </div>
   );
 };
