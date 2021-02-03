@@ -3,7 +3,7 @@ import { RESTAURANT_BY_POSTCODE } from "../../queries";
 const fetchRestaurantData = async (userInput) => {
   try {
     const rawResponse = await fetch(
-      "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/graphql",
+      "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql",
       {
         method: "POST",
         headers: {

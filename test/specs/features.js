@@ -3,7 +3,7 @@ describe("Feature tests", () => {
 
   beforeEach(() => {
     const mockApiCall = browser.mock(
-      "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/graphql",
+      "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql",
       {
         method: "post",
       }
