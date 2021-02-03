@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { SearchResults } from "../../components/SearchResults";
+import { SearchResults } from "../SearchResults";
 import { Homepage } from "../Homepage";
 
 const WebPageRoutes = () => {
