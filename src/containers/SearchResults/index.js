@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { businesses } from "../../mocks/dataMock";
 import { checkValidImageURL } from "./searchResultsUtils";
+import { LoadingConfirmation } from "../../components/LoadingConfirmation";
 import { RestaurantsNear } from "../../components/RestaurantsNear";
 
 const SearchResults = (props) => {
@@ -18,7 +19,7 @@ const SearchResults = (props) => {
   return (
     <>
       <RestaurantsNear userInput={userInput} />
-      {isLoading === true && <h1 className="text-grey">Loading...</h1>}
+      {isLoading === true && <LoadingConfirmation />}
       {restaurantData.length > 0 &&
         restaurantData.map((restaurant, i) => {
           return (
