@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { fetchRestaurantData } from "./searchResultsUtils";
+import { fetchRestaurantData, checkValidImageURL } from "./searchResultsUtils";
 import { LabelsObject } from "../../Labels";
 
 const SearchResults = (props) => {
@@ -27,8 +27,9 @@ const SearchResults = (props) => {
           return (
             <div key={i}>
               <h2 className="text-grey">{restaurant.name}</h2>
+
               <img
-                src={restaurant.photos[0]}
+                src={checkValidImageURL(restaurant.photos[0])}
                 width="150"
                 alt={restaurant.name}
               />
