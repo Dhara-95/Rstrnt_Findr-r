@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 import { fetchRestaurantData } from "./searchResultsUtils";
 import { LabelsObject } from "../../Labels";
@@ -6,10 +6,13 @@ import { LabelsObject } from "../../Labels";
 const SearchResults = (props) => {
   const { userInput } = props;
   const { searchResultQueryLabel } = LabelsObject;
+  const [restaurantData, updateRestaurantData] = useState([]);
 
   useEffect(() => {
-    fetchRestaurantData(userInput);
+    fetchRestaurantData(userInput, updateRestaurantData);
   }, [userInput]);
+
+  console.log(restaurantData);
 
   return (
     <div>

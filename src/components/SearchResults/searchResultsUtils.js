@@ -1,6 +1,6 @@
 import { RESTAURANT_BY_POSTCODE } from "../../queries";
 
-const fetchRestaurantData = async (userInput) => {
+const fetchRestaurantData = async (userInput, updateRestaurantData) => {
   try {
     const rawResponse = await fetch(
       "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/graphql",
@@ -20,7 +20,8 @@ const fetchRestaurantData = async (userInput) => {
       }
     );
     const content = await rawResponse.json();
-    console.log(content);
+    const { business } = content.data.search;
+    updateRestaurantData(business);
   } catch (error) {
     console.log("There was an error with the fetch: " + error);
   }
