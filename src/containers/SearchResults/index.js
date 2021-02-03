@@ -13,6 +13,8 @@ const SearchResults = (props) => {
     fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
   }, [userInput]);
 
+  console.log(restaurantData);
+
   return (
     <div>
       <h2 className="text-grey">
@@ -21,8 +23,17 @@ const SearchResults = (props) => {
       </h2>
       {isLoading === true && <h1 className="text-grey">Loading...</h1>}
       {restaurantData.length > 0 &&
-        restaurantData.map((restaurant) => {
-          return <h2 className="text-grey">{restaurant.name}</h2>;
+        restaurantData.map((restaurant, i) => {
+          return (
+            <div key={i}>
+              <h2 className="text-grey">{restaurant.name}</h2>
+              <img
+                src={restaurant.photos[0]}
+                width="150"
+                alt={restaurant.name}
+              />
+            </div>
+          );
         })}
     </div>
   );
