@@ -15,8 +15,7 @@ const SearchResults = (props) => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization:
-              "Bearer 2jXanN0JhNlrpYgMFcYjR7XU0jcaqXoPBLwWpETv4zyeMaummrCydWM40bTSc0D-dZhV-mMC3t9PuwjY8f63YbqZlRkOauXqP31xf0ft7JEsERye055c5NdExdsOYHYx",
+            Authorization: process.env.REACT_APP_YELP_API_KEY,
             "Accept-Language": "en-US",
           },
           body: JSON.stringify({
