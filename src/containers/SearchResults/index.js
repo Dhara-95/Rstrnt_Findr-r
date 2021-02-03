@@ -1,27 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
-import { fetchRestaurantData, checkValidImageURL } from "./searchResultsUtils";
-
-import { LabelsObject } from "../../Labels";
+import { businesses } from "../../mocks/dataMock";
+import { checkValidImageURL } from "./searchResultsUtils";
+import { RestaurantsNear } from "../../components/RestaurantsNear";
 
 const SearchResults = (props) => {
   const { userInput } = props;
-  const { searchResultQueryLabel } = LabelsObject;
-  const [restaurantData, updateRestaurantData] = useState([]);
+  const [restaurantData, updateRestaurantData] = useState(businesses);
   const [isLoading, updateLoadingState] = useState(false);
 
-  useEffect(() => {
-    fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
-  }, [userInput]);
+  // useEffect(() => {
+  //   fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
+  // }, [userInput]);
 
-  console.log(restaurantData);
+  // Commented out the fetch to avoid unnecessary calls being made
 
   return (
-    <div>
-      <h2 className="text-grey">
-        {searchResultQueryLabel}
-        {userInput}
-      </h2>
+    <>
+      <RestaurantsNear userInput={userInput} />
       {isLoading === true && <h1 className="text-grey">Loading...</h1>}
       {restaurantData.length > 0 &&
         restaurantData.map((restaurant, i) => {
@@ -37,7 +33,7 @@ const SearchResults = (props) => {
             </div>
           );
         })}
-    </div>
+    </>
   );
 };
 
