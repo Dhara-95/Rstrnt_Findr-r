@@ -1,4 +1,5 @@
 import { LabelsObject } from "../../Labels";
+
 import { RESTAURANT_BY_POSTCODE } from "../../queries";
 
 const fetchRestaurantData = async (
@@ -10,6 +11,7 @@ const fetchRestaurantData = async (
   try {
     const rawResponse = await fetch(
       "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql",
+
       {
         method: "POST",
         headers: {

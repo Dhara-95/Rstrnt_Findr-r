@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { fetchRestaurantData, checkValidImageURL } from "./searchResultsUtils";
+
 import { LabelsObject } from "../../Labels";
 
 const SearchResults = (props) => {
