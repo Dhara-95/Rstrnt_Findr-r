@@ -1,6 +1,9 @@
 import React from "react";
 
-import { checkValidImageURL } from "./restaurantListContainerUtils";
+import {
+  checkValidImageURL,
+  checkValidPriceRating,
+} from "./restaurantListContainerUtils";
 
 const RestaurantListContainer = (props) => {
   const { restaurantData } = props;
@@ -17,6 +20,10 @@ const RestaurantListContainer = (props) => {
                 </span>
               );
             })}
+
+            <h2 className="text-grey">
+              {checkValidPriceRating(restaurant.price)}
+            </h2>
 
             <img
               src={checkValidImageURL(restaurant.photos[0])}
