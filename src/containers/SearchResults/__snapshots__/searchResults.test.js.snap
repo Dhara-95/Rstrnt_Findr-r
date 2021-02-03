@@ -1,12 +1,252 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`displays the user input correctly 1`] = `
-<div>
+Array [
   <h2
     className="text-grey"
   >
     Restaurants near 
     W13 34H
-  </h2>
-</div>
+  </h2>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      A 2 Zee's
+    </h2>
+    <img
+      alt="A 2 Zee's"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Chic O Land
+    </h2>
+    <img
+      alt="Chic O Land"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Tophill Caribean
+    </h2>
+    <img
+      alt="Tophill Caribean"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Café Leemoo
+    </h2>
+    <img
+      alt="Café Leemoo"
+      src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Hilltop Roti
+    </h2>
+    <img
+      alt="Hilltop Roti"
+      src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Subway
+    </h2>
+    <img
+      alt="Subway"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      German Doner Kebab
+    </h2>
+    <img
+      alt="German Doner Kebab"
+      src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Abu Zaad
+    </h2>
+    <img
+      alt="Abu Zaad"
+      src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Chicken Shop
+    </h2>
+    <img
+      alt="Chicken Shop"
+      src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Perfect Fried Chicken
+    </h2>
+    <img
+      alt="Perfect Fried Chicken"
+      src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Spicy King
+    </h2>
+    <img
+      alt="Spicy King"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Ealing Mangal Restaurant
+    </h2>
+    <img
+      alt="Ealing Mangal Restaurant"
+      src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Lahore Village Tandoori Restaurant
+    </h2>
+    <img
+      alt="Lahore Village Tandoori Restaurant"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Gospoda Vita
+    </h2>
+    <img
+      alt="Gospoda Vita"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Y Ariba Y Ariba
+    </h2>
+    <img
+      alt="Y Ariba Y Ariba"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Ealing Kebab
+    </h2>
+    <img
+      alt="Ealing Kebab"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      China Garden
+    </h2>
+    <img
+      alt="China Garden"
+      src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      KFC
+    </h2>
+    <img
+      alt="KFC"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Silva Caribbean and Latin American Cuisine
+    </h2>
+    <img
+      alt="Silva Caribbean and Latin American Cuisine"
+      src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
+      width="150"
+    />
+  </div>,
+  <div>
+    <h2
+      className="text-grey"
+    >
+      Ealing Balti House
+    </h2>
+    <img
+      alt="Ealing Balti House"
+      src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"
+      width="150"
+    />
+  </div>,
+]
 `;

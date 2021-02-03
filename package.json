@@ -21,7 +21,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "npx wdio wdio.conf.js",
-    "snap:test": "jest",
+    "jest:test": "jest",
     "snap:update": "jest --updateSnapshot",
     "eject": "react-scripts eject"
   },

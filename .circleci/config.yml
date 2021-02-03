@@ -35,5 +35,5 @@ jobs:
           command: yarn test
 
       - run:
-          name: Run Snapshot tests
-          command: yarn snap:test
+          name: Run Jest tests
+          command: yarn jest:test
