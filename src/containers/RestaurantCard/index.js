@@ -18,18 +18,21 @@ const RestaurantCard = (props) => {
           name={restaurant.name}
         />
       </div>
-      <div>
-        <RestaurantName name={restaurant.name} />
+      <div className="text-left self-center">
+        <div className="py-4">
+          <RestaurantName name={restaurant.name} />
 
-        <RestaurantTags tags={restaurant.categories} />
+          <RestaurantTags tags={restaurant.categories} />
+        </div>
+        <div>
+          <RestaurantPrice price={restaurant.price} />
 
-        <RestaurantPrice price={restaurant.price} />
+          <StarRating rating={restaurant.rating} />
 
-        <StarRating rating={restaurant.rating} />
-
-        <SingleLineAddress
-          unformattedAddress={restaurant.location.formatted_address}
-        />
+          <SingleLineAddress
+            unformattedAddress={restaurant.location.formatted_address}
+          />
+        </div>
       </div>
       <div>{/* Will hold the button */}</div>
     </div>
