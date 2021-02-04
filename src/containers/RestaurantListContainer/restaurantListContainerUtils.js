@@ -12,14 +12,6 @@ const checkValidImageURL = (url) => {
   }
 };
 
-const checkValidPriceRating = (price) => {
-  if (price === null) {
-    return "No price rating available";
-  } else {
-    return price;
-  }
-};
-
 const createIconArray = (rating) => {
   const iconArray = [];
   for (let i = 0; i < Math.floor(rating); i++) {
@@ -35,9 +27,4 @@ const formattedAddress = (address) => {
   return address.replace(/\n/g, ", ");
 };
 
-export {
-  checkValidImageURL,
-  checkValidPriceRating,
-  createIconArray,
-  formattedAddress,
-};
+export { checkValidImageURL, createIconArray, formattedAddress };

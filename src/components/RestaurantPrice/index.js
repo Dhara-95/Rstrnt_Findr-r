@@ -1,5 +1,7 @@
 import React from "react";
 
+import { checkValidPriceRating } from "../../utils/checkValidPriceRating";
+
 const RestaurantPrice = (props) => {
   const { price } = props;
 

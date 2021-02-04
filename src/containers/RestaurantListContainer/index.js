@@ -2,11 +2,11 @@ import React from "react";
 
 import {
   checkValidImageURL,
-  checkValidPriceRating,
   createIconArray,
   formattedAddress,
 } from "./restaurantListContainerUtils";
 import { RestaurantName } from "../../components/RestaurantName";
+import { RestaurantPrice } from "../../components/RestaurantPrice";
 import { StarRating } from "../../components/StarRating";
 
 const RestaurantListContainer = (props) => {
@@ -26,9 +26,7 @@ const RestaurantListContainer = (props) => {
               );
             })}
 
-            <h2 className="text-grey">
-              {checkValidPriceRating(restaurant.price)}
-            </h2>
+            <RestaurantPrice price={restaurant.price} />
 
             <StarRating iconArray={createIconArray(restaurant.rating)} />
 
