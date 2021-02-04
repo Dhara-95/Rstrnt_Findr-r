@@ -1,4 +1,5 @@
 import React from "react";
+
 import { LabelsObject } from "../../Labels";
 
 const RestaurantsNear = (props) => {

@@ -1,5 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
+
 import { CuisineList } from "./index";
 
 it("displays the Cuisine List component correctly", () => {

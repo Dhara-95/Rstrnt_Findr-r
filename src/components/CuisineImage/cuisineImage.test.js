@@ -1,5 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
+
 import { CuisineImage } from "./index";
 
 it("displays the cuisine images correctly", () => {

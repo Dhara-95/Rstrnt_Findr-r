@@ -1,5 +1,3 @@
-import { LabelsObject } from "../../Labels";
-
 import { RESTAURANT_BY_POSTCODE } from "../../queries";
 
 const fetchRestaurantData = async (
