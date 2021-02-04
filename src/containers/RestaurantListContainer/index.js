@@ -1,11 +1,9 @@
 import React from "react";
 
-import {
-  checkValidImageURL,
-  formattedAddress,
-} from "./restaurantListContainerUtils";
+import { checkValidImageURL } from "./restaurantListContainerUtils";
 import { RestaurantName } from "../../components/RestaurantName";
 import { RestaurantPrice } from "../../components/RestaurantPrice";
+import { SingleLineAddress } from "../../components/SingleLineAddress";
 import { StarRating } from "../../components/StarRating";
 
 const RestaurantListContainer = (props) => {
@@ -19,7 +17,7 @@ const RestaurantListContainer = (props) => {
             <RestaurantName name={restaurant.name} />
             {restaurant.categories.map((tag, i) => {
               return (
-                <span className="text-grey">
+                <span className="text-grey" key={i}>
                   {(i ? ", " : "") + tag.title}{" "}
                 </span>
               );
@@ -29,9 +27,9 @@ const RestaurantListContainer = (props) => {
 
             <StarRating rating={restaurant.rating} />
 
-            <span className="text-grey">
-              {formattedAddress(restaurant.location.formatted_address)}
-            </span>
+            <SingleLineAddress
+              unformattedAddress={restaurant.location.formatted_address}
+            />
 
             <img
               src={checkValidImageURL(restaurant.photos[0])}

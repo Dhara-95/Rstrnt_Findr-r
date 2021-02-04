@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays the Restaurants address correctly formatted 1`] = `
+<span
+  className="text-grey"
+>
+  55 Manor Road, London W13 0LJ, United Kingdom
+</span>
+`;

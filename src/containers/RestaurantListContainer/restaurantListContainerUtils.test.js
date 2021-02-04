@@ -16,11 +16,3 @@ describe("checkValidImageURL tests", () => {
     expect(checkValidImageURL(invalidURL)).toEqual(invalidImageURLLabel);
   });
 });
-
-describe("checkFormattedAddress", () => {
-  test("Returns the correct formatted address", () => {
-    const address = "55 Manor Road\nLondon W13 0LJ\nUnited Kingdom";
-    const correctAddress = "55 Manor Road, London W13 0LJ, United Kingdom";
-    expect(formattedAddress(address)).toEqual(correctAddress);
-  });
-});
