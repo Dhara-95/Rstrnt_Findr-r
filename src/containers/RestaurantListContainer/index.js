@@ -6,6 +6,7 @@ import {
   createIconArray,
   formattedAddress,
 } from "./restaurantListContainerUtils";
+import { RestaurantName } from "../../components/RestaurantName";
 import { StarRating } from "../../components/StarRating";
 
 const RestaurantListContainer = (props) => {
@@ -16,7 +17,7 @@ const RestaurantListContainer = (props) => {
       {restaurantData.map((restaurant, i) => {
         return (
           <div key={i}>
-            <h2 className="text-grey">{restaurant.name}</h2>
+            <RestaurantName name={restaurant.name} />
             {restaurant.categories.map((tag, i) => {
               return (
                 <span className="text-grey">
