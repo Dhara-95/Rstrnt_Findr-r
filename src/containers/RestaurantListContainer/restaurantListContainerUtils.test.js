@@ -4,6 +4,7 @@ import {
   checkValidImageURL,
   checkValidPriceRating,
   createIconArray,
+  formattedAddress,
 } from "./restaurantListContainerUtils";
 import { LabelsObject } from "../../Labels";
 
@@ -44,5 +45,13 @@ describe("checkCorrectStarRating", () => {
     expect(createIconArray(1.5)).toEqual(
       expect.arrayContaining(halfNumberArray)
     );
+  });
+});
+
+describe("checkFormattedAddress", () => {
+  test("Returns the correct formatted address", () => {
+    const address = "55 Manor Road\nLondon W13 0LJ\nUnited Kingdom";
+    const correctAddress = "55 Manor Road, London W13 0LJ, United Kingdom";
+    expect(formattedAddress(address)).toEqual(correctAddress);
   });
 });

@@ -81,6 +81,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      55 Manor Road, London W13 0LJ, United Kingdom
+    </span>
     <img
       alt="A 2 Zee's"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -142,6 +147,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      50 Drayton Green Road, London W13 8RY, United Kingdom
+    </span>
     <img
       alt="Chic O Land"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -239,6 +249,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      46-48 Drayton Green Road, London W13 8RY, United Kingdom
+    </span>
     <img
       alt="Tophill Caribean"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -360,6 +375,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      9 Castle Hill Parade, The Avenue, London W13 8JP, United Kingdom
+    </span>
     <img
       alt="Café Leemoo"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
@@ -475,6 +495,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      46-48 Drayton Green Road, London W13 8RY, United Kingdom
+    </span>
     <img
       alt="Hilltop Roti"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
@@ -572,6 +597,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      54 Broadway, London W13 0SU, United Kingdom
+    </span>
     <img
       alt="Subway"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -681,6 +711,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      24 Broadway, West Ealing, London W13 0SU, United Kingdom
+    </span>
     <img
       alt="German Doner Kebab"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
@@ -778,6 +813,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      20-22 Broadway Ealing, London W13 0SU, United Kingdom
+    </span>
     <img
       alt="Abu Zaad"
       src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
@@ -857,6 +897,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      19 Broadway, London W13 9DA, United Kingdom
+    </span>
     <img
       alt="Chicken Shop"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
@@ -954,6 +999,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      2 The Broadway, West Ealing, London W13 0SR, United Kingdom
+    </span>
     <img
       alt="Perfect Fried Chicken"
       src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
@@ -1033,6 +1083,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      The Avenue, London W13 8JP, United Kingdom
+    </span>
     <img
       alt="Spicy King"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1148,6 +1203,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      193 Uxbridge Road, Hanwell, London W13 9AA, United Kingdom
+    </span>
     <img
       alt="Ealing Mangal Restaurant"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
@@ -1227,6 +1287,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      179 Uxbridge Road, London W13 9AA, United Kingdom
+    </span>
     <img
       alt="Lahore Village Tandoori Restaurant"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1324,6 +1389,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      146 Uxbridge Road, West Ealing, London W13 8SB, United Kingdom
+    </span>
     <img
       alt="Gospoda Vita"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1367,6 +1437,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      124 Broadway, West Ealing W13 0SY, United Kingdom
+    </span>
     <img
       alt="Y Ariba Y Ariba"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1470,6 +1545,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      179 Uxbridge Road, Ealing, London W13 9AA, United Kingdom
+    </span>
     <img
       alt="Ealing Kebab"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1531,6 +1611,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      177 Uxbridge Road, London W13 9AA, United Kingdom
+    </span>
     <img
       alt="China Garden"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
@@ -1622,6 +1707,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      109 The Broadway, West Ealing, London W13 9BE, United Kingdom
+    </span>
     <img
       alt="KFC"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -1725,6 +1815,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      148 The Broadway, London W13 0TL, United Kingdom
+    </span>
     <img
       alt="Silva Caribbean and Latin American Cuisine"
       src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
@@ -1828,6 +1923,11 @@ Array [
         />
       </svg>
     </div>
+    <span
+      className="text-grey"
+    >
+      150 Broadway, London W13 0TL, United Kingdom
+    </span>
     <img
       alt="Ealing Balti House"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"

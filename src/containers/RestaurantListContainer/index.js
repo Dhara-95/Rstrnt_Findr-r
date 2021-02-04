@@ -4,6 +4,7 @@ import {
   checkValidImageURL,
   checkValidPriceRating,
   createIconArray,
+  formattedAddress,
 } from "./restaurantListContainerUtils";
 import { StarRating } from "../../components/StarRating";
 
@@ -29,6 +30,10 @@ const RestaurantListContainer = (props) => {
             </h2>
 
             <StarRating iconArray={createIconArray(restaurant.rating)} />
+
+            <span className="text-grey">
+              {formattedAddress(restaurant.location.formatted_address)}
+            </span>
 
             <img
               src={checkValidImageURL(restaurant.photos[0])}

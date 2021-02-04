@@ -31,4 +31,13 @@ const createIconArray = (rating) => {
   return iconArray;
 };
 
-export { checkValidImageURL, checkValidPriceRating, createIconArray };
+const formattedAddress = (address) => {
+  return address.replace(/\n/g, ", ");
+};
+
+export {
+  checkValidImageURL,
+  checkValidPriceRating,
+  createIconArray,
+  formattedAddress,
+};
