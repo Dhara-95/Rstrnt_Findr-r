@@ -3,10 +3,12 @@ import React from "react";
 import {
   checkValidImageURL,
   checkValidPriceRating,
+  returnCorrectStarRating,
 } from "./restaurantListContainerUtils";
 
 const RestaurantListContainer = (props) => {
   const { restaurantData } = props;
+
   return (
     <>
       {restaurantData.map((restaurant, i) => {
@@ -24,6 +26,8 @@ const RestaurantListContainer = (props) => {
             <h2 className="text-grey">
               {checkValidPriceRating(restaurant.price)}
             </h2>
+
+            <div>{returnCorrectStarRating(restaurant.rating)}</div>
 
             <img
               src={checkValidImageURL(restaurant.photos[0])}
