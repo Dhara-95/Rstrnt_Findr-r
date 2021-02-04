@@ -2,7 +2,6 @@ import React from "react";
 
 import {
   checkValidImageURL,
-  createIconArray,
   formattedAddress,
 } from "./restaurantListContainerUtils";
 import { RestaurantName } from "../../components/RestaurantName";
@@ -28,7 +27,7 @@ const RestaurantListContainer = (props) => {
 
             <RestaurantPrice price={restaurant.price} />
 
-            <StarRating iconArray={createIconArray(restaurant.rating)} />
+            <StarRating rating={restaurant.rating} />
 
             <span className="text-grey">
               {formattedAddress(restaurant.location.formatted_address)}

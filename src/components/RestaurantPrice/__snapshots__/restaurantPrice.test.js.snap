@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays the Restaurants Price rating correctly 1`] = `
+<h2
+  className="text-grey"
+>
+  £
+</h2>
+`;
