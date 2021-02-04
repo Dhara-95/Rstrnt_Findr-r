@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { businesses } from "../../mocks/dataMock";
 import { LoadingConfirmation } from "../../components/LoadingConfirmation";
 import { RestaurantsNear } from "../../components/RestaurantsNear";
-import { RestaurantListContainer } from "../RestaurantListContainer";
+import { RestaurantList } from "../RestaurantList";
 
 const SearchResults = (props) => {
   const { userInput } = props;
@@ -20,7 +20,7 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading === true && <LoadingConfirmation />}
-      <RestaurantListContainer restaurantData={restaurantData} />
+      <RestaurantList restaurantData={restaurantData} />
     </>
   );
 };

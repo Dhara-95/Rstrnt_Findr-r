@@ -1,12 +1,12 @@
 import React from "react";
 import renderer from "react-test-renderer";
 
-import { RestaurantListContainer } from "./index";
+import { RestaurantCard } from "./index";
 import { businesses } from "../../mocks/dataMock";
 
-it("displays a list of businesses correctly", async () => {
+it("displays a restaurant in its own component", async () => {
   const tree = renderer
-    .create(<RestaurantListContainer restaurantData={businesses} />)
+    .create(<RestaurantCard restaurant={businesses[0]} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
