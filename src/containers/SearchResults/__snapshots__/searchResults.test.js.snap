@@ -14,12 +14,14 @@ Array [
     >
       A 2 Zee's
     </h2>
-    <span
-      className="text-grey"
-    >
-      Cafes
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Cafes
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -98,12 +100,14 @@ Array [
     >
       Chic O Land
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -164,12 +168,14 @@ Array [
     >
       Tophill Caribean
     </h2>
-    <span
-      className="text-grey"
-    >
-      Caribbean
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Caribbean
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -266,18 +272,20 @@ Array [
     >
       Café Leemoo
     </h2>
-    <span
-      className="text-grey"
-    >
-      Coffee & Tea
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Breakfast & Brunch
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Coffee & Tea
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Breakfast & Brunch
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -392,12 +400,14 @@ Array [
     >
       Hilltop Roti
     </h2>
-    <span
-      className="text-grey"
-    >
-      Caribbean
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Caribbean
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -512,12 +522,14 @@ Array [
     >
       Subway
     </h2>
-    <span
-      className="text-grey"
-    >
-      Restaurants
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Restaurants
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -614,24 +626,26 @@ Array [
     >
       German Doner Kebab
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , German
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Kebab
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , German
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Kebab
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -728,12 +742,14 @@ Array [
     >
       Abu Zaad
     </h2>
-    <span
-      className="text-grey"
-    >
-      Arabian
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Arabian
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -830,12 +846,14 @@ Array [
     >
       Chicken Shop
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -914,12 +932,14 @@ Array [
     >
       Perfect Fried Chicken
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1016,12 +1036,14 @@ Array [
     >
       Spicy King
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1100,12 +1122,14 @@ Array [
     >
       Ealing Mangal Restaurant
     </h2>
-    <span
-      className="text-grey"
-    >
-      Turkish
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Turkish
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1220,12 +1244,14 @@ Array [
     >
       Lahore Village Tandoori Restaurant
     </h2>
-    <span
-      className="text-grey"
-    >
-      Indian
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Indian
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1304,12 +1330,14 @@ Array [
     >
       Gospoda Vita
     </h2>
-    <span
-      className="text-grey"
-    >
-      Polish
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Polish
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1406,12 +1434,14 @@ Array [
     >
       Y Ariba Y Ariba
     </h2>
-    <span
-      className="text-grey"
-    >
-      Mexican
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Mexican
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1454,18 +1484,20 @@ Array [
     >
       Ealing Kebab
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Kebab
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Kebab
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1562,12 +1594,14 @@ Array [
     >
       China Garden
     </h2>
-    <span
-      className="text-grey"
-    >
-      Chinese
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Chinese
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1628,24 +1662,26 @@ Array [
     >
       KFC
     </h2>
-    <span
-      className="text-grey"
-    >
-      Fast Food
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Chicken Shop
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Chicken Wings
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Fast Food
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Chicken Shop
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Chicken Wings
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1724,18 +1760,20 @@ Array [
     >
       Silva Caribbean and Latin American Cuisine
     </h2>
-    <span
-      className="text-grey"
-    >
-      Latin American
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Caribbean
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Latin American
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Caribbean
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >
@@ -1832,18 +1870,20 @@ Array [
     >
       Ealing Balti House
     </h2>
-    <span
-      className="text-grey"
-    >
-      Indian
-       
-    </span>
-    <span
-      className="text-grey"
-    >
-      , Pakistani
-       
-    </span>
+    <div>
+      <span
+        className="text-grey"
+      >
+        Indian
+         
+      </span>
+      <span
+        className="text-grey"
+      >
+        , Pakistani
+         
+      </span>
+    </div>
     <h2
       className="text-grey"
     >

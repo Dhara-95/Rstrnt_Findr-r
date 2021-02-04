@@ -5,6 +5,7 @@ import { RestaurantName } from "../../components/RestaurantName";
 import { RestaurantPrice } from "../../components/RestaurantPrice";
 import { StarRating } from "../../components/StarRating";
 import { SingleLineAddress } from "../../components/SingleLineAddress";
+import { RestaurantTags } from "../../components/RestaurantTags";
 
 const RestaurantCard = (props) => {
   const { restaurant } = props;
@@ -12,13 +13,8 @@ const RestaurantCard = (props) => {
   return (
     <div>
       <RestaurantName name={restaurant.name} />
-      {restaurant.categories.map((tag, i) => {
-        return (
-          <span className="text-grey" key={i}>
-            {(i ? ", " : "") + tag.title}{" "}
-          </span>
-        );
-      })}
+
+      <RestaurantTags tags={restaurant.categories} />
 
       <RestaurantPrice price={restaurant.price} />
 
