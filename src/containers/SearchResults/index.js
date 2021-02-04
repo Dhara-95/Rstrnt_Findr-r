@@ -20,7 +20,9 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading === true && <LoadingConfirmation />}
-      <RestaurantList restaurantData={restaurantData} />
+      <div className="flex flex-col">
+        <RestaurantList restaurantData={restaurantData} />
+      </div>
     </>
   );
 };
