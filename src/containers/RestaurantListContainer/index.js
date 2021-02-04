@@ -1,6 +1,6 @@
 import React from "react";
 
-import { checkValidImageURL } from "./restaurantListContainerUtils";
+import { RestaurantImageSmall } from "../../components/RestaurantImageSmall";
 import { RestaurantName } from "../../components/RestaurantName";
 import { RestaurantPrice } from "../../components/RestaurantPrice";
 import { SingleLineAddress } from "../../components/SingleLineAddress";
@@ -31,10 +31,9 @@ const RestaurantListContainer = (props) => {
               unformattedAddress={restaurant.location.formatted_address}
             />
 
-            <img
-              src={checkValidImageURL(restaurant.photos[0])}
-              width="150"
-              alt={restaurant.name}
+            <RestaurantImageSmall
+              url={restaurant.photos[0]}
+              name={restaurant.name}
             />
           </div>
         );

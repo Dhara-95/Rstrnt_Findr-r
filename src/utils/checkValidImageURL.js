@@ -1,4 +1,4 @@
-import { LabelsObject } from "../../Labels";
+import { LabelsObject } from "../Labels";
 
 const checkValidImageURL = (url) => {
   const { invalidImageURLLabel } = LabelsObject;
@@ -10,8 +10,4 @@ const checkValidImageURL = (url) => {
   }
 };
 
-const formattedAddress = (address) => {
-  return address.replace(/\n/g, ", ");
-};
-
-export { checkValidImageURL, formattedAddress };
+export { checkValidImageURL };

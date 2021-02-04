@@ -1,8 +1,5 @@
-import {
-  checkValidImageURL,
-  formattedAddress,
-} from "./restaurantListContainerUtils";
-import { LabelsObject } from "../../Labels";
+import { checkValidImageURL } from "../utils/checkValidImageURL";
+import { LabelsObject } from "../Labels";
 
 describe("checkValidImageURL tests", () => {
   test("Returns passed in valid url", () => {
