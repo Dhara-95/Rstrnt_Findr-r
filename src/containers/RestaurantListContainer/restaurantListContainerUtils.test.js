@@ -1,6 +1,9 @@
+import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
+
 import {
   checkValidImageURL,
   checkValidPriceRating,
+  createIconArray,
 } from "./restaurantListContainerUtils";
 import { LabelsObject } from "../../Labels";
 
@@ -25,5 +28,21 @@ describe("checkValidPriceRating tests", () => {
 
   test("Returns Price rating not available", () => {
     expect(checkValidPriceRating(null)).toEqual("No price rating available");
+  });
+});
+
+describe("checkCorrectStarRating", () => {
+  test("Returns star rating array for whole number", () => {
+    const wholeNumberArray = [faStar, faStar];
+    expect(createIconArray(2)).toEqual(
+      expect.arrayContaining(wholeNumberArray)
+    );
+  });
+
+  test("Returns star rating array for half numbers", () => {
+    const halfNumberArray = [faStar, faStarHalf];
+    expect(createIconArray(1.5)).toEqual(
+      expect.arrayContaining(halfNumberArray)
+    );
   });
 });

@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 
 import { LabelsObject } from "../../Labels";
@@ -32,13 +31,4 @@ const createIconArray = (rating) => {
   return iconArray;
 };
 
-const returnCorrectStarRating = (rating) => {
-  const iconArray = createIconArray(rating);
-
-  const componentsToRender = iconArray.map((icon, index) => {
-    return <FontAwesomeIcon icon={icon} key={index} color="gold" />;
-  });
-  return componentsToRender;
-};
-
-export { checkValidImageURL, checkValidPriceRating, returnCorrectStarRating };
+export { checkValidImageURL, checkValidPriceRating, createIconArray };

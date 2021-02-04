@@ -19,6 +19,62 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="A 2 Zee's"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -42,6 +98,44 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Chic O Land"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -65,6 +159,80 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Tophill Caribean"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -94,6 +262,98 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Café Leemoo"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
@@ -117,6 +377,98 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Hilltop Roti"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
@@ -140,6 +492,80 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Subway"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -175,6 +601,80 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="German Doner Kebab"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
@@ -198,6 +698,80 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Abu Zaad"
       src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
@@ -221,6 +795,62 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Chicken Shop"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
@@ -244,6 +874,80 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Perfect Fried Chicken"
       src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
@@ -267,6 +971,62 @@ Array [
     >
       ££
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Spicy King"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -290,6 +1050,98 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Ealing Mangal Restaurant"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
@@ -313,6 +1165,62 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Lahore Village Tandoori Restaurant"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -336,6 +1244,80 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Gospoda Vita"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -359,6 +1341,26 @@ Array [
     >
       No price rating available
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Y Ariba Y Ariba"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -388,6 +1390,80 @@ Array [
     >
       ££
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Ealing Kebab"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -411,6 +1487,44 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="China Garden"
       src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
@@ -446,6 +1560,62 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="KFC"
       src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
@@ -475,6 +1645,80 @@ Array [
     >
       £
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star-half fa-w-18 "
+        color="gold"
+        data-icon="star-half"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M288 0c-11.4 0-22.8 5.9-28.7 17.8L194 150.2 47.9 171.4c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.1 23 46 46.4 33.7L288 439.6V0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Silva Caribbean and Latin American Cuisine"
       src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
@@ -504,6 +1748,80 @@ Array [
     >
       ££
     </h2>
+    <div>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-star fa-w-18 "
+        color="gold"
+        data-icon="star"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 576 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
     <img
       alt="Ealing Balti House"
       src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"

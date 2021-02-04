@@ -3,8 +3,9 @@ import React from "react";
 import {
   checkValidImageURL,
   checkValidPriceRating,
-  returnCorrectStarRating,
+  createIconArray,
 } from "./restaurantListContainerUtils";
+import { StarRating } from "../../components/StarRating";
 
 const RestaurantListContainer = (props) => {
   const { restaurantData } = props;
@@ -27,7 +28,7 @@ const RestaurantListContainer = (props) => {
               {checkValidPriceRating(restaurant.price)}
             </h2>
 
-            <div>{returnCorrectStarRating(restaurant.rating)}</div>
+            <StarRating iconArray={createIconArray(restaurant.rating)} />
 
             <img
               src={checkValidImageURL(restaurant.photos[0])}
