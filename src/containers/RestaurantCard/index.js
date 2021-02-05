@@ -10,28 +10,33 @@ import {
 } from "../../components";
 
 const RestaurantCard = (props) => {
-  const { restaurant } = props;
+  const {
+    photos,
+    name,
+    categories,
+    price,
+    rating,
+    location,
+  } = props.restaurant;
+  const { formatted_address } = location;
 
   return (
     <div className="flex m-4 ml-auto w-4/5">
       <div>
-        <RestaurantImageSmall
-          url={restaurant.photos[0]}
-          name={restaurant.name}
-        />
+        <RestaurantImageSmall url={photos[0]} name={name} />
       </div>
       <div className="text-left self-center">
         <div className="py-4">
-          <RestaurantName name={restaurant.name} />
+          <RestaurantName name={name} />
 
-          <RestaurantTags tags={restaurant.categories} />
+          <RestaurantTags tags={categories} />
         </div>
         <div>
-          <RestaurantPrice price={restaurant.price} />
+          <RestaurantPrice price={price} />
 
-          <StarRating rating={restaurant.rating} />
+          <StarRating rating={rating} />
 
-          <SingleLineAddress address={restaurant.location.formatted_address} />
+          <SingleLineAddress address={formatted_address} />
         </div>
       </div>
       <div>{/* Will hold the button */}</div>

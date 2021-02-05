@@ -18,10 +18,8 @@ const SearchResults = (props) => {
   return (
     <>
       <RestaurantsNear userInput={userInput} />
-      {isLoading === true && <LoadingConfirmation />}
-      <div className="flex flex-col">
-        <RestaurantList restaurantData={restaurantData} />
-      </div>
+      {isLoading && <LoadingConfirmation />}
+      <RestaurantList data={restaurantData} />
     </>
   );
 };

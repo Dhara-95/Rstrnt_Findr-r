@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`displays a list of businesses correctly 1`] = `
-Array [
+<div
+  className="flex flex-col"
+>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -101,7 +103,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -183,7 +185,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -301,7 +303,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -442,7 +444,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -578,7 +580,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -696,7 +698,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -824,7 +826,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -942,7 +944,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1042,7 +1044,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1160,7 +1162,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1260,7 +1262,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1396,7 +1398,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1496,7 +1498,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1614,7 +1616,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1678,7 +1680,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1801,7 +1803,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1883,7 +1885,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -1993,7 +1995,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -2116,7 +2118,7 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
+  </div>
   <div
     className="flex m-4 ml-auto w-4/5"
   >
@@ -2239,6 +2241,6 @@ Array [
       </div>
     </div>
     <div />
-  </div>,
-]
+  </div>
+</div>
 `;

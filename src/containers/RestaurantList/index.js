@@ -3,14 +3,14 @@ import React from "react";
 import { RestaurantCard } from "../index";
 
 const RestaurantList = (props) => {
-  const { restaurantData } = props;
+  const { data } = props;
 
   return (
-    <>
-      {restaurantData.map((restaurant, index) => {
+    <div className="flex flex-col">
+      {data.map((restaurant, index) => {
         return <RestaurantCard restaurant={restaurant} key={index} />;
       })}
-    </>
+    </div>
   );
 };
 
