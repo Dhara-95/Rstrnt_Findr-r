@@ -1,11 +1,10 @@
 import React from "react";
 
-import { checkValidPriceRating } from "../../utils/checkValidPriceRating";
-
 const RestaurantPrice = (props) => {
   const { price } = props;
+  const priceCheck = price ? price : "No price rating available";
 
-  return <h2 className="text-grey">{checkValidPriceRating(price)}</h2>;
+  return <h2 className="text-grey">{priceCheck}</h2>;
 };
 
 export { RestaurantPrice };
