@@ -8,14 +8,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="A 2 Zee's"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="A 2 Zee's"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -108,14 +112,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Chic O Land"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Chic O Land"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -190,14 +198,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Tophill Caribean"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Tophill Caribean"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -308,14 +320,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Café Leemoo"
-        className="small-image w-60"
-        src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Café Leemoo"
+          className="image"
+          src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -449,14 +465,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Hilltop Roti"
-        className="small-image w-60"
-        src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Hilltop Roti"
+          className="image"
+          src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -585,14 +605,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Subway"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Subway"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -703,14 +727,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="German Doner Kebab"
-        className="small-image w-60"
-        src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="German Doner Kebab"
+          className="image"
+          src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -831,14 +859,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Abu Zaad"
-        className="small-image w-60"
-        src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Abu Zaad"
+          className="image"
+          src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -949,14 +981,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Chicken Shop"
-        className="small-image w-60"
-        src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Chicken Shop"
+          className="image"
+          src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1049,14 +1085,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Perfect Fried Chicken"
-        className="small-image w-60"
-        src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Perfect Fried Chicken"
+          className="image"
+          src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1167,14 +1207,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Spicy King"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Spicy King"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1267,14 +1311,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Ealing Mangal Restaurant"
-        className="small-image w-60"
-        src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Ealing Mangal Restaurant"
+          className="image"
+          src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1403,14 +1451,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Lahore Village Tandoori Restaurant"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Lahore Village Tandoori Restaurant"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1503,14 +1555,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Gospoda Vita"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Gospoda Vita"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1621,14 +1677,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Y Ariba Y Ariba"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Y Ariba Y Ariba"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1685,14 +1745,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Ealing Kebab"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Ealing Kebab"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1808,14 +1872,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="China Garden"
-        className="small-image w-60"
-        src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="China Garden"
+          className="image"
+          src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -1890,14 +1958,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="KFC"
-        className="small-image w-60"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="KFC"
+          className="image"
+          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -2000,14 +2072,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Silva Caribbean and Latin American Cuisine"
-        className="small-image w-60"
-        src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Silva Caribbean and Latin American Cuisine"
+          className="image"
+          src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"
@@ -2123,14 +2199,18 @@ exports[`displays a list of businesses correctly 1`] = `
     className="flex m-4 ml-auto w-4/5"
   >
     <div>
-      <img
-        alt="Ealing Balti House"
-        className="small-image w-60"
-        src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"
-      />
+      <div
+        className="mask"
+      >
+        <img
+          alt="Ealing Balti House"
+          className="image"
+          src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"
+        />
+      </div>
     </div>
     <div
-      className="text-left self-center"
+      className="text-left self-center pl-4"
     >
       <div
         className="py-4"

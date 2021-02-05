@@ -5,14 +5,18 @@ exports[`displays a restaurant in its own component 1`] = `
   className="flex m-4 ml-auto w-4/5"
 >
   <div>
-    <img
-      alt="A 2 Zee's"
-      className="small-image w-60"
-      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-    />
+    <div
+      className="mask"
+    >
+      <img
+        alt="A 2 Zee's"
+        className="image"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
+    </div>
   </div>
   <div
-    className="text-left self-center"
+    className="text-left self-center pl-4"
   >
     <div
       className="py-4"

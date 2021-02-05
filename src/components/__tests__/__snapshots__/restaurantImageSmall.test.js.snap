@@ -1,9 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`displays the Restaurant name correctly 1`] = `
-<img
-  alt="name"
-  className="small-image w-60"
-  src="url"
-/>
+<div
+  className="mask"
+>
+  <img
+    alt="name"
+    className="image"
+    src="url"
+  />
+</div>
 `;
