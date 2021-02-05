@@ -29,9 +29,7 @@ const RestaurantCard = (props) => {
 
           <StarRating rating={restaurant.rating} />
 
-          <SingleLineAddress
-            unformattedAddress={restaurant.location.formatted_address}
-          />
+          <SingleLineAddress address={restaurant.location.formatted_address} />
         </div>
       </div>
       <div>{/* Will hold the button */}</div>

@@ -3,9 +3,10 @@ import React from "react";
 import { formatAddress } from "../../utils/formatAddress";
 
 const SingleLineAddress = (props) => {
-  const { unformattedAddress } = props;
+  const { address } = props;
+  const formattedAddress = formatAddress(address);
 
-  return <span className="text-grey">{formatAddress(unformattedAddress)}</span>;
+  return <span className="text-grey">{formattedAddress}</span>;
 };
 
 export { SingleLineAddress };
