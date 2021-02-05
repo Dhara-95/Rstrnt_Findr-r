@@ -1,19 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-import { businesses } from "../../mocks/dataMock";
+import { fetchRestaurantData } from "./searchResultsUtils";
 import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
 const SearchResults = (props) => {
   const { userInput } = props;
-  const [restaurantData, updateRestaurantData] = useState(businesses);
+  const [restaurantData, updateRestaurantData] = useState([]);
   const [isLoading, updateLoadingState] = useState(false);
 
-  // useEffect(() => {
-  //   fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
-  // }, [userInput]);
-
-  // Commented out the fetch to avoid unnecessary calls being made
+  useEffect(() => {
+    fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
+  }, [userInput]);
 
   return (
     <>
