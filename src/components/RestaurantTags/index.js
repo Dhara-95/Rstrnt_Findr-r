@@ -8,7 +8,7 @@ const RestaurantTags = (props) => {
       {tags.map((tag, index) => {
         return (
           <span className="text-grey" key={index}>
-            {(index ? ", " : "") + tag.title}{" "}
+            {(index ? ", " : "") + tag.title}
           </span>
         );
       })}
