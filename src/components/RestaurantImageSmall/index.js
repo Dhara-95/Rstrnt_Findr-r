@@ -6,7 +6,11 @@ const RestaurantImageSmall = (props) => {
   const { url, name } = props;
   const validURL = checkInvalidImageURL(url);
 
-  return <img className="small-image w-60" src={validURL} alt={name} />;
+  return (
+    <div className="mask">
+      <img className="image" src={validURL} alt={name} />
+    </div>
+  );
 };
 
 export { RestaurantImageSmall };

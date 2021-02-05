@@ -16,7 +16,21 @@ body {
   background-color: #111;
 }
 
-.small-image {
-  clip-path: inset(5% 5% 5% 5% round 10%);
-  /* Also can take single values to make all sides the same, or 2 values (vert/horz), or 3 values (top/horz/bottom). */
+.mask {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  transform: scale(1.3);
 }

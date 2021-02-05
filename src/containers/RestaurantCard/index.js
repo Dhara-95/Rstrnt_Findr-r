@@ -25,7 +25,7 @@ const RestaurantCard = (props) => {
       <div>
         <RestaurantImageSmall url={photos[0]} name={name} />
       </div>
-      <div className="text-left self-center">
+      <div className="text-left self-center pl-4">
         <div className="py-4">
           <RestaurantName name={name} />
 
