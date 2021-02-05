@@ -6,7 +6,7 @@ Array [
     className="text-grey"
   >
     Restaurants near 
-    W13 34H
+    W13 3RH
   </h2>,
   <div
     className="flex flex-col"
@@ -37,7 +37,6 @@ Array [
               className="text-grey"
             >
               Cafes
-               
             </span>
           </div>
         </div>
@@ -138,7 +137,6 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
           </div>
         </div>
@@ -221,7 +219,6 @@ Array [
               className="text-grey"
             >
               Caribbean
-               
             </span>
           </div>
         </div>
@@ -340,13 +337,11 @@ Array [
               className="text-grey"
             >
               Coffee & Tea
-               
             </span>
             <span
               className="text-grey"
             >
               , Breakfast & Brunch
-               
             </span>
           </div>
         </div>
@@ -483,7 +478,6 @@ Array [
               className="text-grey"
             >
               Caribbean
-               
             </span>
           </div>
         </div>
@@ -620,7 +614,6 @@ Array [
               className="text-grey"
             >
               Restaurants
-               
             </span>
           </div>
         </div>
@@ -739,19 +732,16 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
             <span
               className="text-grey"
             >
               , German
-               
             </span>
             <span
               className="text-grey"
             >
               , Kebab
-               
             </span>
           </div>
         </div>
@@ -870,7 +860,6 @@ Array [
               className="text-grey"
             >
               Arabian
-               
             </span>
           </div>
         </div>
@@ -989,7 +978,6 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
           </div>
         </div>
@@ -1090,7 +1078,6 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
           </div>
         </div>
@@ -1209,7 +1196,6 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
           </div>
         </div>
@@ -1310,7 +1296,6 @@ Array [
               className="text-grey"
             >
               Turkish
-               
             </span>
           </div>
         </div>
@@ -1447,7 +1432,6 @@ Array [
               className="text-grey"
             >
               Indian
-               
             </span>
           </div>
         </div>
@@ -1548,7 +1532,6 @@ Array [
               className="text-grey"
             >
               Polish
-               
             </span>
           </div>
         </div>
@@ -1667,7 +1650,6 @@ Array [
               className="text-grey"
             >
               Mexican
-               
             </span>
           </div>
         </div>
@@ -1732,13 +1714,11 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
             <span
               className="text-grey"
             >
               , Kebab
-               
             </span>
           </div>
         </div>
@@ -1857,7 +1837,6 @@ Array [
               className="text-grey"
             >
               Chinese
-               
             </span>
           </div>
         </div>
@@ -1940,19 +1919,16 @@ Array [
               className="text-grey"
             >
               Fast Food
-               
             </span>
             <span
               className="text-grey"
             >
               , Chicken Shop
-               
             </span>
             <span
               className="text-grey"
             >
               , Chicken Wings
-               
             </span>
           </div>
         </div>
@@ -2053,13 +2029,11 @@ Array [
               className="text-grey"
             >
               Latin American
-               
             </span>
             <span
               className="text-grey"
             >
               , Caribbean
-               
             </span>
           </div>
         </div>
@@ -2178,13 +2152,11 @@ Array [
               className="text-grey"
             >
               Indian
-               
             </span>
             <span
               className="text-grey"
             >
               , Pakistani
-               
             </span>
           </div>
         </div>

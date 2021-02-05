@@ -5,6 +5,6 @@ exports[`displays the Restaurants Near Header correctly 1`] = `
   className="text-grey"
 >
   Restaurants near 
-  W13 34H
+  W13 3RH
 </h2>
 `;

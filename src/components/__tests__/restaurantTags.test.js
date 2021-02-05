@@ -9,3 +9,14 @@ it("displays the Restaurant tags correctly", () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it("displays the Restaurant tags correctly when multiple tags are passed in", () => {
+  const tree = renderer
+    .create(
+      <RestaurantTags
+        tags={[{ title: "Cafe" }, { title: "Caribbean" }, { title: "Kebab" }]}
+      />
+    )
+    .toJSON();
+  expect(tree).toMatchSnapshot();
+});

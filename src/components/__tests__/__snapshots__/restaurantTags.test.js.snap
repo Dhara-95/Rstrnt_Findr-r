@@ -6,7 +6,26 @@ exports[`displays the Restaurant tags correctly 1`] = `
     className="text-grey"
   >
     Cafe
-     
+  </span>
+</div>
+`;
+
+exports[`displays the Restaurant tags correctly when multiple tags are passed in 1`] = `
+<div>
+  <span
+    className="text-grey"
+  >
+    Cafe
+  </span>
+  <span
+    className="text-grey"
+  >
+    , Caribbean
+  </span>
+  <span
+    className="text-grey"
+  >
+    , Kebab
   </span>
 </div>
 `;

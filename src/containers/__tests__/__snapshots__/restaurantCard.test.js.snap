@@ -27,7 +27,6 @@ exports[`displays a restaurant in its own component 1`] = `
           className="text-grey"
         >
           Cafes
-           
         </span>
       </div>
     </div>
