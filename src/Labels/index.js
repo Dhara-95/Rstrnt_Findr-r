@@ -1,12 +1,11 @@
-const LabelsObject = {
-  findRestaurantsLabel: "Find restaurants near you:",
-  headerLabel: "Rstrnt Findr-r",
-  findByCuisineLabel: "Find By Cuisine",
-  findButtonLabel: "Find",
-  searchResultQueryLabel: "Restaurants near ",
-  searchResultURLLabel: "/searchresults",
-  invalidImageURLLabel:
-    "https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg",
+const labels = {
+  findRestaurants: "Find restaurants near you:",
+  header: "Rstrnt Findr-r",
+  findByCuisine: "Find By Cuisine",
+  findButton: "Find",
+  searchResultQuery: "Restaurants near ",
+  searchResultURL: "/searchresults",
+  loading: "Loading...",
 };
 
-export { LabelsObject };
+export { labels };

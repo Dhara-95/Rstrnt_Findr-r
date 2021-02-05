@@ -2,7 +2,7 @@
 
 exports[`displays the Restaurant name correctly 1`] = `
 <h2
-  className="text-grey"
+  className="text-grey text-xl"
 >
   name
 </h2>

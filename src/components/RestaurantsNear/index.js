@@ -1,14 +1,14 @@
 import React from "react";
 
-import { LabelsObject } from "../../Labels";
+import { labels } from "../../Labels";
 
 const RestaurantsNear = (props) => {
   const { userInput } = props;
-  const { searchResultQueryLabel } = LabelsObject;
+  const { searchResultQuery } = labels;
 
   return (
     <h2 className="text-grey">
-      {searchResultQueryLabel}
+      {searchResultQuery}
       {userInput}
     </h2>
   );

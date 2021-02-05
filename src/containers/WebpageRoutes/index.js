@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { SearchResults } from "../SearchResults";
 import { Homepage } from "../Homepage";
+import { SearchResults } from "../SearchResults";
 
 const WebPageRoutes = () => {
   const [userInput, setUserInput] = useState("");

@@ -1,5 +1,4 @@
 import { checkValidImageURL } from "../utils/checkValidImageURL";
-import { LabelsObject } from "../Labels";
 
 describe("checkValidImageURL tests", () => {
   test("Returns passed in valid url", () => {
@@ -8,8 +7,9 @@ describe("checkValidImageURL tests", () => {
   });
 
   test("Returns url for place holder img on invalid url", () => {
-    const { invalidImageURLLabel } = LabelsObject;
+    const placeHolderURL =
+      "https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg";
     const invalidURL = "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg";
-    expect(checkValidImageURL(invalidURL)).toEqual(invalidImageURLLabel);
+    expect(checkValidImageURL(invalidURL)).toEqual(placeHolderURL);
   });
 });

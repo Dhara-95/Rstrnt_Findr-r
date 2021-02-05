@@ -1,22 +1,18 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
+import { labels } from "../../Labels";
 import { SubmitButton } from "../../components/SubmitButton";
-import { LabelsObject } from "../../Labels";
 
 const LocationSearchForm = (props) => {
   const { setUserInput } = props;
-  const {
-    findRestaurantsLabel,
-    findButtonLabel,
-    searchResultURLLabel,
-  } = LabelsObject;
+  const { findRestaurants, findButton, searchResultURL } = labels;
 
   const history = useHistory();
 
   return (
     <div className="py-8 flex flex-col lg:justify-around lg:flex-row xl:justify-around xl:flex-row 2xl:justify-around 2xl:flex-row items-center w-1/2 mx-auto">
-      <span className="text-grey">{findRestaurantsLabel}</span>
+      <span className="text-grey">{findRestaurants}</span>
       <div className="rounded bg-white lg:w-1/2 xl:w-1/2 2xl:w-1/2 flex py-1 pr-1 pl-5 justify-between">
         <input
           onChange={(event) => setUserInput(event.target.value)}
@@ -26,9 +22,9 @@ const LocationSearchForm = (props) => {
           placeholder="W13 3RH"
         />
         <SubmitButton
-          label={findButtonLabel}
+          label={findButton}
           history={history}
-          route={searchResultURLLabel}
+          route={searchResultURL}
         />
       </div>
     </div>

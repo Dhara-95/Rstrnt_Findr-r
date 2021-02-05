@@ -1,7 +1,11 @@
 import React from "react";
 
+import { labels } from "../../Labels";
+
 const LoadingConfirmation = () => {
-  return <h1 className="text-grey">Loading...</h1>;
+  const { loading } = labels;
+
+  return <h1 className="text-grey">{loading}</h1>;
 };
 
 export { LoadingConfirmation };

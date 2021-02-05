@@ -1,7 +1,7 @@
 import React from "react";
 
-import { LocationSearchForm } from "../LocationSearchForm";
 import { CuisineListContainer } from "../CuisineListContainer";
+import { LocationSearchForm } from "../LocationSearchForm";
 
 const Homepage = (props) => {
   const { setUserInput } = props;

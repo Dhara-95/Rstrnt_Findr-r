@@ -1,14 +1,14 @@
 import React from "react";
 
-import { LabelsObject } from "../../Labels";
 import { CuisineList } from "../CuisineList";
+import { labels } from "../../Labels";
 
 const CuisineListContainer = () => {
-  const { findByCuisineLabel } = LabelsObject;
+  const { findByCuisine } = labels;
 
   return (
     <div className="py-8">
-      <h2 className="text-2xl text-grey p-6">{findByCuisineLabel}</h2>
+      <h2 className="text-2xl text-grey p-6">{findByCuisine}</h2>
       <CuisineList />
     </div>
   );

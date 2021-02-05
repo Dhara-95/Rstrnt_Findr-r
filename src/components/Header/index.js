@@ -1,11 +1,11 @@
 import React from "react";
 
-import { LabelsObject } from "../../Labels";
+import { labels } from "../../Labels";
 
 const Header = () => {
-  const { headerLabel } = LabelsObject;
+  const { header } = labels;
 
-  return <h1 className="text-5xl text-grey py-6">{headerLabel}</h1>;
+  return <h1 className="text-5xl text-grey py-6">{header}</h1>;
 };
 
 export { Header };

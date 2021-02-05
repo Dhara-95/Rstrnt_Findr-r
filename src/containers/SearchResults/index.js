@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 import { businesses } from "../../mocks/dataMock";
 import { LoadingConfirmation } from "../../components/LoadingConfirmation";
-import { RestaurantsNear } from "../../components/RestaurantsNear";
 import { RestaurantList } from "../RestaurantList";
+import { RestaurantsNear } from "../../components/RestaurantsNear";
 
 const SearchResults = (props) => {
   const { userInput } = props;
