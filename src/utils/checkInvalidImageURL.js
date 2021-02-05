@@ -1,4 +1,4 @@
-const checkValidImageURL = (url) => {
+const checkInvalidImageURL = (url) => {
   const invalidImageURL = "https://s3-media3.fl.yelpcdn.com/bphoto/None/o.jpg";
   const placeHolderURL =
     "https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg";
@@ -10,4 +10,4 @@ const checkValidImageURL = (url) => {
   }
 };
 
-export { checkValidImageURL };
+export { checkInvalidImageURL };
