@@ -1,11 +1,13 @@
 import React from "react";
 
-import { RestaurantImageSmall } from "../../components/RestaurantImageSmall";
-import { RestaurantName } from "../../components/RestaurantName";
-import { RestaurantPrice } from "../../components/RestaurantPrice";
-import { RestaurantTags } from "../../components/RestaurantTags";
-import { SingleLineAddress } from "../../components/SingleLineAddress";
-import { StarRating } from "../../components/StarRating";
+import {
+  RestaurantImageSmall,
+  RestaurantName,
+  RestaurantPrice,
+  RestaurantTags,
+  SingleLineAddress,
+  StarRating,
+} from "../../components";
 
 const RestaurantCard = (props) => {
   const { restaurant } = props;

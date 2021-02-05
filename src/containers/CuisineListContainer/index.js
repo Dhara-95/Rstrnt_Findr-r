@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CuisineList } from "../CuisineList";
+import { CuisineList } from "../index";
 import { labels } from "../../Labels";
 
 const CuisineListContainer = () => {

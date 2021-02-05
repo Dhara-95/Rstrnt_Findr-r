@@ -2,7 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 import { labels } from "../../Labels";
-import { SubmitButton } from "../../components/SubmitButton";
+import { SubmitButton } from "../../components";
 
 const LocationSearchForm = (props) => {
   const { setUserInput } = props;

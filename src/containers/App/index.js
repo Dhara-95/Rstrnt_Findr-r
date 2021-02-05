@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Header } from "../../components/Header";
-import { WebPageRoutes } from "../WebpageRoutes";
+import { Header } from "../../components";
+import { WebPageRoutes } from "../index";
 import "./App.css";
 
 function App() {
