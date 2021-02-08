@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { fetchRestaurantData } from "./searchResultsUtils";
+import { restaurantFetch } from "../../utils/fetchRestaurantData";
 import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
@@ -10,8 +10,12 @@ const SearchResults = (props) => {
   const [isLoading, updateLoadingState] = useState(false);
 
   useEffect(() => {
-    fetchRestaurantData(userInput, updateRestaurantData, updateLoadingState);
-  }, [userInput]);
+    updateLoadingState(true);
+    console.log(isLoading);
+    restaurantFetch.fetchData(userInput, updateRestaurantData);
+    updateLoadingState(false);
+    console.log(isLoading);
+  }, [userInput, isLoading]);
 
   return (
     <>
