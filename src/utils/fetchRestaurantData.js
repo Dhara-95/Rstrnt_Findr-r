@@ -1,6 +1,6 @@
 import { RESTAURANT_BY_POSTCODE } from "../queries";
 
-class FetchRestaurantData {
+class FetchData {
   constructor() {
     this.url =
       "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql";
@@ -13,7 +13,8 @@ class FetchRestaurantData {
     this.query = RESTAURANT_BY_POSTCODE;
   }
 
-  async fetchData(input, updateState) {
+  async getData(input, updateRestaurantData, updateLoadingState) {
+    updateLoadingState(true);
     try {
       const rawResponse = await fetch(this.url, {
         method: this.method,
@@ -27,13 +28,14 @@ class FetchRestaurantData {
       });
       const content = await rawResponse.json();
       const { business } = content.data.search;
-      updateState(business);
+      updateRestaurantData(business);
     } catch (error) {
       console.log("There was an error with the fetch: " + error);
     }
+    updateLoadingState(false);
   }
 }
 
-const restaurantFetch = new FetchRestaurantData();
+const restaurantFetch = new FetchData();
 
 export { restaurantFetch };

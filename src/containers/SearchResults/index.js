@@ -10,12 +10,13 @@ const SearchResults = (props) => {
   const [isLoading, updateLoadingState] = useState(false);
 
   useEffect(() => {
-    updateLoadingState(true);
-    console.log(isLoading);
-    restaurantFetch.fetchData(userInput, updateRestaurantData);
-    updateLoadingState(false);
-    console.log(isLoading);
-  }, [userInput, isLoading]);
+    restaurantFetch.getData(
+      userInput,
+      updateRestaurantData,
+      updateLoadingState
+    );
+    // updateLoadingState only works within the method call - need to look into
+  }, [userInput]);
 
   return (
     <>
