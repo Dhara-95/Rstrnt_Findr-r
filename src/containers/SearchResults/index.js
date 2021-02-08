@@ -10,7 +10,9 @@ const SearchResults = (props) => {
   const [isLoading, updateLoadingState] = useState(false);
 
   useEffect(() => {
-    yelp.getData(userInput, updateRestaurantData, updateLoadingState);
+    const data = yelp.getData(userInput, updateLoadingState);
+    console.log(data);
+    updateRestaurantData(data);
     // updateLoadingState only works within the method call - need to look into
   }, [userInput]);
 
