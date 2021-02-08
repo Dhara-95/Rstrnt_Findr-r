@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { restaurantFetch } from "../../utils/fetchRestaurantData";
+import { yelp } from "../../utils/fetchRestaurantData";
 import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
@@ -10,11 +10,7 @@ const SearchResults = (props) => {
   const [isLoading, updateLoadingState] = useState(false);
 
   useEffect(() => {
-    restaurantFetch.getData(
-      userInput,
-      updateRestaurantData,
-      updateLoadingState
-    );
+    yelp.getData(userInput, updateRestaurantData, updateLoadingState);
     // updateLoadingState only works within the method call - need to look into
   }, [userInput]);
 
