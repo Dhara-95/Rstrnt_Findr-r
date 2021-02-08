@@ -18,7 +18,10 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading && <LoadingConfirmation />}
-      <FilterResults />
+      <FilterResults
+        businesses={restaurantData}
+        updateRestaurantData={updateRestaurantData}
+      />
       <RestaurantList data={restaurantData} />
     </>
   );
