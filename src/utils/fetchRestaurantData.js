@@ -2,8 +2,7 @@ import { RESTAURANT_BY_POSTCODE } from "../queries";
 
 class FetchData {
   constructor() {
-    this.url =
-      "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql";
+    this.url = process.env.REACT_APP_YELP_ENDPOINT;
     this.method = "POST";
     this.headers = {
       "Content-Type": "application/json",
