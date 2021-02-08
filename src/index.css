@@ -20,3 +20,7 @@ body {
   clip-path: inset(5% 5% 5% 5% round 10%);
   /* Also can take single values to make all sides the same, or 2 values (vert/horz), or 3 values (top/horz/bottom). */
 }
+
+select {
+  text-align-last: center;
+}
