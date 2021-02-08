@@ -9,6 +9,31 @@ Array [
     W13 3RH
   </h2>,
   <div
+    className="flex justify-center p-4"
+  >
+    <h2
+      className="text-grey m-4"
+    >
+      Order by:
+    </h2>
+    <select
+      id="filter"
+      name="filter"
+      onChange={[Function]}
+    >
+      <option
+        value="nearest"
+      >
+        Nearest to you
+      </option>
+      <option
+        value="rating"
+      >
+        By rating
+      </option>
+    </select>
+  </div>,
+  <div
     className="flex flex-col"
   />,
 ]
