@@ -14,31 +14,18 @@ class FetchData {
   getData(input, updateLoadingState) {
     updateLoadingState(true);
     const options = this._formatOptions(input);
-    let returnData;
-
-    fetch(this.url, options)
+    const result = fetch(this.url, options)
       .then((response) => response.json())
       .then((data) => {
         updateLoadingState(false);
         console.log(data.data.search.business);
-        return data.data.search.business;
+        // return data.data.search.business;
+        return data;
       })
       .catch((error) =>
         console.log("There was an error with the fetch: " + error)
       );
-
-    // const rawResponse = await fetch(this.url, {
-    //   method: this.method,
-    //   headers: this.headers,
-    //   body: JSON.stringify({
-    //     query: this.query,
-    //     variables: {
-    //       postcode: input,
-    //     },
-    //   }),
-    // });
-    // const content = await rawResponse.json();
-    // const { business } = content.data.search;
+    return result;
   }
 
   // tried to use # to make this method private but having Babel issues

@@ -13,6 +13,7 @@ const SearchResults = (props) => {
     const data = yelp.getData(userInput, updateLoadingState);
     console.log(data);
     updateRestaurantData(data);
+
     // updateLoadingState only works within the method call - need to look into
   }, [userInput]);
 
