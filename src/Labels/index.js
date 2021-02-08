@@ -6,6 +6,9 @@ const labels = {
   searchResultQuery: "Restaurants near ",
   searchResultURL: "/searchresults",
   loading: "Loading...",
+  orderBy: "Order by:",
+  nearestFilter: "Nearest to you",
+  ratingFilter: "By rating",
 };
 
 export { labels };

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { fetchRestaurantData } from "./searchResultsUtils";
+import { FilterResults } from "../../components/FilterResults";
 import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
@@ -17,6 +18,7 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading && <LoadingConfirmation />}
+      <FilterResults />
       <RestaurantList data={restaurantData} />
     </>
   );
