@@ -31,5 +31,8 @@ module.exports = {
       xl: { min: "1280px", max: "1535px" },
       "2xl": { min: "1536px" },
     },
+    scale: {
+      130: "1.3",
+    },
   },
 };

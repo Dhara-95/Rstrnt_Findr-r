@@ -15,16 +15,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #111;
 }
-
-.mask {
-  /* align-items: center; */
-  /* justify-content: center; */
-}
-
-.image {
-  display: block;
-  height: 100%;
-  width: auto;
-  object-fit: cover;
-  transform: scale(1.3);
-}
