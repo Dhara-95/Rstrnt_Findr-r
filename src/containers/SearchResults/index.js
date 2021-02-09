@@ -9,7 +9,7 @@ const SearchResults = (props) => {
   const { userInput } = props;
   const [restaurantData, updateRestaurantData] = useState([]);
   const [isLoading, updateLoadingState] = useState(false);
-  const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState(null);
+  const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState([]);
 
   useEffect(() => {
     yelp.getData(userInput, updateRestaurantData, updateLoadingState);
@@ -17,19 +17,15 @@ const SearchResults = (props) => {
   }, [userInput]);
 
   const handleOnChange = (action) => {
-    if (defaultRestaurantOrder === null) {
+    if (!defaultRestaurantOrder.length) {
       applyDefaultRestaurantOrder([...restaurantData]);
     }
-    switch (action) {
-      case "rating":
-        updateRestaurantData(filterByRating(restaurantData));
-        break;
-      case "nearest":
-        updateRestaurantData([...defaultRestaurantOrder]);
-        break;
-      default:
-        return;
-    }
+    const actionList = {
+      rating: filterByRating(restaurantData),
+      nearest: [...defaultRestaurantOrder],
+    };
+
+    updateRestaurantData(actionList[action]);
   };
 
   return (
