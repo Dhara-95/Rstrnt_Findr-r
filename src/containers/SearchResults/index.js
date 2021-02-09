@@ -18,7 +18,6 @@ const SearchResults = (props) => {
 
   const handleOnChange = (action) => {
     if (defaultRestaurantOrder === null) {
-      console.log("copying state");
       applyDefaultRestaurantOrder([...restaurantData]);
     }
     switch (action) {
