@@ -32,4 +32,20 @@ describe("Feature tests", () => {
     const h2header = $("h2=Restaurants near W13 3RH");
     expect(h2header).toBeDisplayed();
   });
+
+  it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
+    browser.setWindowRect(null, null, 1366, 768);
+    browser.url(homepageUrl);
+    const input = $('[name="postcode"]');
+    input.addValue("W13 3RH");
+    const submitButton = $(".submit-button");
+    submitButton.click();
+    const selectBox = $("#filter");
+    const elem = $("h2=A 2 Zee's");
+    expect(elem).toBeVisibleInViewport();
+    selectBox.selectByAttribute("value", "rating");
+    expect(elem).not.toBeVisibleInViewport();
+    selectBox.selectByAttribute("value", "nearest");
+    expect(elem).toBeVisibleInViewport();
+  });
 });
