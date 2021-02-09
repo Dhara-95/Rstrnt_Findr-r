@@ -5,7 +5,7 @@ exports[`displays a list of businesses correctly 1`] = `
   className="flex flex-col"
 >
   <div
-    className="flex justify-center p-4 items-center w-1/2 mx-auto"
+    className=" list-options flex justify-center p-4 items-center w-1/2 mx-auto"
   >
     <h2
       className="text-grey m-4"
