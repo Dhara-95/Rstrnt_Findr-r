@@ -8,14 +8,14 @@ import { FilterResults } from "../FilterResults";
 
 it("displays the dropdown menu", () => {
   const tree = renderer
-    .create(<FilterResults handleRestaurantFilter={"handleRestaurantFilter"} />)
+    .create(<FilterResults handleOnChange={"handleOnChange"} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it("Filters results based on user selection", async () => {
   const myMock = jest.fn();
-  render(<FilterResults handleRestaurantFilter={myMock} />);
+  render(<FilterResults handleOnChange={myMock} />);
   const select = screen.getByRole("combobox");
   userEvent.selectOptions(select, "rating");
   expect(myMock).toHaveBeenCalledTimes(1);

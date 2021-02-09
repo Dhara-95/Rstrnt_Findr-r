@@ -16,7 +16,7 @@ const SearchResults = (props) => {
     // updateLoadingState only works within the method call - need to look into
   }, [userInput]);
 
-  const handleRestaurantFilter = (action) => {
+  const handleOnChange = (action) => {
     if (defaultRestaurantOrder === null) {
       console.log("copying state");
       applyDefaultRestaurantOrder([...restaurantData]);
@@ -37,10 +37,7 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading && <LoadingConfirmation />}
-      <RestaurantList
-        data={restaurantData}
-        handleRestaurantFilter={handleRestaurantFilter}
-      />
+      <RestaurantList data={restaurantData} handleOnChange={handleOnChange} />
     </>
   );
 };

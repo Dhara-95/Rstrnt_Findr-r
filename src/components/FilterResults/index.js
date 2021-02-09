@@ -3,7 +3,7 @@ import React from "react";
 import { labels } from "../../Labels";
 
 const FilterResults = (props) => {
-  const { handleRestaurantFilter } = props;
+  const { handleOnChange } = props;
   const { orderBy, nearestFilter, ratingFilter } = labels;
 
   return (
@@ -14,7 +14,7 @@ const FilterResults = (props) => {
         name="filter"
         id="filter"
         onChange={(event) => {
-          handleRestaurantFilter(event.target.value);
+          handleOnChange(event.target.value);
         }}
       >
         <option value="nearest">{nearestFilter}</option>
