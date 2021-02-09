@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { fetchRestaurantData } from "./searchResultsUtils";
+import { yelp } from "../../utils/fetchRestaurantData";
 import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
