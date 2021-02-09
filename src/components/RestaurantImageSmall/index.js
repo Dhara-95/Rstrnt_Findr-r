@@ -4,9 +4,17 @@ import { checkInvalidImageURL } from "../../utils/checkInvalidImageURL";
 
 const RestaurantImageSmall = (props) => {
   const { url, name } = props;
-  const validURL = checkInvalidImageURL(url);
+  const src = checkInvalidImageURL(url);
 
-  return <img className="small-image w-60" src={validURL} alt={name} />;
+  return (
+    <div className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center ">
+      <img
+        className="w-auto h-full block object-cover transform scale-130"
+        src={src}
+        alt={name}
+      />
+    </div>
+  );
 };
 
 export { RestaurantImageSmall };
