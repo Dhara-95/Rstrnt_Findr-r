@@ -1,10 +1,9 @@
 import React from "react";
 
 import { labels } from "../../Labels";
-import { filterByRating } from "../../utils/filterByRating";
 
 const FilterResults = (props) => {
-  const { updateRestaurantData, businesses } = props;
+  const { handleRestaurantFilter } = props;
   const { orderBy, nearestFilter, ratingFilter } = labels;
 
   return (
@@ -14,8 +13,8 @@ const FilterResults = (props) => {
         className="rounded-full w-1/3 h-8"
         name="filter"
         id="filter"
-        onChange={() => {
-          updateRestaurantData(filterByRating(businesses));
+        onChange={(event) => {
+          handleRestaurantFilter(event.target.value);
         }}
       >
         <option value="nearest">{nearestFilter}</option>
