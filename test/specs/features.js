@@ -1,3 +1,5 @@
+import { business } from "../../__mocks__/dataMock";
+
 describe("Feature tests", () => {
   const homepageUrl = "http://localhost:3000";
 
@@ -8,7 +10,7 @@ describe("Feature tests", () => {
         method: "post",
       }
     );
-    mockApiCall.respond({
+    mockApiCall.respond(business, {
       statusCode: 200,
       fetchResponse: false,
     });
@@ -31,16 +33,18 @@ describe("Feature tests", () => {
     expect(h2header).toBeDisplayed();
   });
 
-  it("Has the ability to change the restaurant order based on rating", () => {
+  it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
     input.addValue("W13 3RH");
     const submitButton = $(".submit-button");
     submitButton.click();
     const selectBox = $("#filter");
-    const elem = $("h2='A 2 Zee's'");
-    expect(elem).toBeDisplayedInViewport();
+    const elem = $("h2=A 2 Zee's");
+    expect(elem).toBeVisibleInViewport();
     selectBox.selectByAttribute("value", "rating");
-    expect(elem).not.toBeDisplayedInViewport();
+    expect(elem).not.toBeVisibleInViewport();
+    selectBox.selectByAttribute("value", "nearest");
+    expect(elem).toBeVisibleInViewport();
   });
 });
