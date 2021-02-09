@@ -6,11 +6,11 @@ exports[`displays a restaurant in its own component 1`] = `
 >
   <div>
     <div
-      className="mask"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
       <img
         alt="A 2 Zee's"
-        className="image"
+        className="w-auto h-full block object-cover transform scale-130"
         src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
       />
     </div>
