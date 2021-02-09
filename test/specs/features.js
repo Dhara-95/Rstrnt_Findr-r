@@ -34,7 +34,6 @@ describe("Feature tests", () => {
   });
 
   it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
-    browser.setWindowRect(null, null, 1366, 768);
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
     input.addValue("W13 3RH");
@@ -44,8 +43,10 @@ describe("Feature tests", () => {
     const elem = $("h2=A 2 Zee's");
     expect(elem).toBeVisibleInViewport();
     selectBox.selectByAttribute("value", "rating");
-    expect(elem).not.toBeVisibleInViewport();
+    const elemNotVisible = $("h2=A 2 Zee's");
+    expect(elemNotVisible).not.toBeVisibleInViewport();
     selectBox.selectByAttribute("value", "nearest");
-    expect(elem).toBeVisibleInViewport();
+    const elemVisible = $("h2=A 2 Zee's");
+    expect(elemVisible).toBeVisibleInViewport();
   });
 });
