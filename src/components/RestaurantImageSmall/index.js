@@ -8,7 +8,11 @@ const RestaurantImageSmall = (props) => {
 
   return (
     <div className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center ">
-      <img className="image" src={src} alt={name} />
+      <img
+        className="w-auto h-full block object-cover transform scale-130"
+        src={src}
+        alt={name}
+      />
     </div>
   );
 };
