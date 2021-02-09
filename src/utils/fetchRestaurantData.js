@@ -1,6 +1,6 @@
 import { RESTAURANT_BY_POSTCODE } from "../queries";
 
-class FetchData {
+class ApiCall {
   constructor() {
     this.url = process.env.REACT_APP_YELP_ENDPOINT;
     this.method = "POST";
@@ -11,24 +11,21 @@ class FetchData {
     };
   }
 
-  getData(input, updateLoadingState) {
+  async getData(input, updateRestaurantData, updateLoadingState) {
     updateLoadingState(true);
-    const options = this._formatOptions(input);
-    const result = fetch(this.url, options)
-      .then((response) => response.json())
-      .then((data) => {
-        updateLoadingState(false);
-        console.log(data.data.search.business);
-        // return data.data.search.business;
-        return data;
-      })
-      .catch((error) =>
-        console.log("There was an error with the fetch: " + error)
-      );
-    return result;
+    try {
+      const options = this._formatOptions(input);
+      const response = await fetch(this.url, options);
+      const result = await response.json();
+      const { business } = result.data.search;
+
+      updateRestaurantData(business);
+    } catch (error) {
+      console.log("There was an error with the fetch: " + error);
+    }
+    updateLoadingState(false);
   }
 
-  // tried to use # to make this method private but having Babel issues
   _formatOptions(input) {
     return {
       method: this.method,
@@ -43,6 +40,6 @@ class FetchData {
   }
 }
 
-const yelp = new FetchData();
+const yelp = new ApiCall();
 
 export { yelp };
