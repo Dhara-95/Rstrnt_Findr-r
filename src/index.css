@@ -16,10 +16,6 @@ body {
   background-color: #111;
 }
 
-select {
-  text-align-last: center;
-}
-
-select {
+.list-options > select {
   text-align-last: center;
 }
