@@ -33,6 +33,16 @@ describe("Feature tests", () => {
     expect(h2header).toBeDisplayed();
   });
 
+  it("Has the ability for user to click dropdown menu", () => {
+    browser.url(homepageUrl);
+    const input = $('[name="postcode"]');
+    input.addValue("W13 3RH");
+    const submitButton = $(".submit-button");
+    submitButton.click();
+    const selectBox = $("#filter");
+    expect(selectBox.isClickable());
+  });
+
   it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
