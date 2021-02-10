@@ -31,7 +31,7 @@ exports[`displays a list of businesses correctly 1`] = `
     </select>
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -51,11 +51,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           A 2 Zee's
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -65,11 +67,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -126,7 +130,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           55 Manor Road, London W13 0LJ, United Kingdom
         </span>
@@ -135,7 +139,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -155,11 +159,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Chic O Land
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -169,11 +175,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -212,7 +220,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           50 Drayton Green Road, London W13 8RY, United Kingdom
         </span>
@@ -221,7 +229,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -241,11 +249,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Tophill Caribean
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -255,11 +265,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -334,7 +346,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           46-48 Drayton Green Road, London W13 8RY, United Kingdom
         </span>
@@ -343,7 +355,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -363,11 +375,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Café Leemoo
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -382,11 +396,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -479,7 +495,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           9 Castle Hill Parade, The Avenue, London W13 8JP, United Kingdom
         </span>
@@ -488,7 +504,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -508,11 +524,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Hilltop Roti
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -522,11 +540,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -619,7 +639,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           46-48 Drayton Green Road, London W13 8RY, United Kingdom
         </span>
@@ -628,7 +648,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -648,11 +668,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Subway
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -662,11 +684,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -741,7 +765,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           54 Broadway, London W13 0SU, United Kingdom
         </span>
@@ -750,7 +774,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -770,11 +794,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           German Doner Kebab
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -794,11 +820,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -873,7 +901,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           24 Broadway, West Ealing, London W13 0SU, United Kingdom
         </span>
@@ -882,7 +910,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -902,11 +930,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Abu Zaad
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -916,11 +946,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -995,7 +1027,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           20-22 Broadway Ealing, London W13 0SU, United Kingdom
         </span>
@@ -1004,7 +1036,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1024,11 +1056,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Chicken Shop
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1038,11 +1072,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1099,7 +1135,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           19 Broadway, London W13 9DA, United Kingdom
         </span>
@@ -1108,7 +1144,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1128,11 +1164,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Perfect Fried Chicken
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1142,11 +1180,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1221,7 +1261,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           2 The Broadway, West Ealing, London W13 0SR, United Kingdom
         </span>
@@ -1230,7 +1270,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1250,11 +1290,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Spicy King
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1264,11 +1306,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           ££
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1325,7 +1369,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           The Avenue, London W13 8JP, United Kingdom
         </span>
@@ -1334,7 +1378,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1354,11 +1398,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Ealing Mangal Restaurant
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1368,11 +1414,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1465,7 +1513,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           193 Uxbridge Road, Hanwell, London W13 9AA, United Kingdom
         </span>
@@ -1474,7 +1522,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1494,11 +1542,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Lahore Village Tandoori Restaurant
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1508,11 +1558,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1569,7 +1621,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           179 Uxbridge Road, London W13 9AA, United Kingdom
         </span>
@@ -1578,7 +1630,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1598,11 +1650,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Gospoda Vita
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1612,11 +1666,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1691,7 +1747,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           146 Uxbridge Road, West Ealing, London W13 8SB, United Kingdom
         </span>
@@ -1700,7 +1756,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1720,11 +1776,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Y Ariba Y Ariba
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1734,11 +1792,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           No price rating available
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1759,7 +1819,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           124 Broadway, West Ealing W13 0SY, United Kingdom
         </span>
@@ -1768,7 +1828,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1788,11 +1848,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Ealing Kebab
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1807,11 +1869,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           ££
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1886,7 +1950,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           179 Uxbridge Road, Ealing, London W13 9AA, United Kingdom
         </span>
@@ -1895,7 +1959,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -1915,11 +1979,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           China Garden
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -1929,11 +1995,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -1972,7 +2040,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           177 Uxbridge Road, London W13 9AA, United Kingdom
         </span>
@@ -1981,7 +2049,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -2001,11 +2069,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           KFC
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -2025,11 +2095,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -2086,7 +2158,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           109 The Broadway, West Ealing, London W13 9BE, United Kingdom
         </span>
@@ -2095,7 +2167,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -2115,11 +2187,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Silva Caribbean and Latin American Cuisine
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -2134,11 +2208,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           £
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -2213,7 +2289,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           148 The Broadway, London W13 0TL, United Kingdom
         </span>
@@ -2222,7 +2298,7 @@ exports[`displays a list of businesses correctly 1`] = `
     <div />
   </div>
   <div
-    className="flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex m-4 ml-auto w-4/5"
   >
     <div>
       <div
@@ -2242,11 +2318,13 @@ exports[`displays a list of businesses correctly 1`] = `
         className="py-4"
       >
         <h2
-          className="text-grey text-xl"
+          className="restaurant-name text-grey text-xl"
         >
           Ealing Balti House
         </h2>
-        <div>
+        <div
+          className="restaurant-tag"
+        >
           <span
             className="text-grey"
           >
@@ -2261,11 +2339,13 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
       <div>
         <h2
-          className="text-grey"
+          className=" restaurant-price text-grey"
         >
           ££
         </h2>
-        <div>
+        <div
+          className="restaurant-rating"
+        >
           <svg
             aria-hidden="true"
             className="svg-inline--fa fa-star fa-w-18 "
@@ -2340,7 +2420,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
         </div>
         <span
-          className="text-grey"
+          className=" restaurant-address text-grey"
         >
           150 Broadway, London W13 0TL, United Kingdom
         </span>

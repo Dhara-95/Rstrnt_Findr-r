@@ -6,7 +6,9 @@ const SingleLineAddress = (props) => {
   const { address } = props;
   const formattedAddress = formatAddress(address);
 
-  return <span className="text-grey">{formattedAddress}</span>;
+  return (
+    <span className=" restaurant-address text-grey">{formattedAddress}</span>
+  );
 };
 
 export { SingleLineAddress };
