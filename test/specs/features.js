@@ -16,21 +16,27 @@ describe("Feature tests", () => {
     });
   });
 
-  it("Has the correct url on postcode submit", () => {
+  it("Redirects the user to /searchresults page on button submit", () => {
     browser.url(homepageUrl);
     const submitButton = $(".submit-button");
     submitButton.click();
     expect(browser).toHaveUrlContaining("/searchresults");
   });
 
-  it("Has correct user input displayed on submit", () => {
+  it("Has the correct main page information", () => {
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
     input.addValue("W13 3RH");
     const submitButton = $(".submit-button");
     submitButton.click();
-    const h2header = $("h2=Restaurants near W13 3RH");
-    expect(h2header).toBeDisplayed();
+
+    const title = $("h1=Rstrnt Findr-r");
+    const header = $("h2=Restaurants near W13 3RH");
+    const orderByFilter = $(".list-options");
+
+    expect(title).toBeDisplayed();
+    expect(header).toBeDisplayed();
+    expect(orderByFilter).toBeDisplayed();
   });
 
   it("Has the ability for user to click dropdown menu", () => {
