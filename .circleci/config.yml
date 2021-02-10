@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: alpeware/chrome-headless-trunk
+      - image: blueimp/wdio
       # circleci/node:14.15.4-browsers-legacy - old docker image
     steps:
       - checkout
