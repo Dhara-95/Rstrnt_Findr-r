@@ -21,7 +21,7 @@ const RestaurantCard = (props) => {
   const { formatted_address } = location;
 
   return (
-    <div className="flex m-4 ml-auto w-4/5">
+    <div className="restaurant-card flex m-4 ml-auto w-4/5">
       <div>
         <RestaurantImageSmall url={photos[0]} name={name} />
       </div>

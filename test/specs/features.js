@@ -16,53 +16,73 @@ describe("Feature tests", () => {
     });
   });
 
-  it("Redirects the user to /searchresults page on button submit", () => {
-    browser.url(homepageUrl);
-    const submitButton = $(".submit-button");
-    submitButton.click();
-    expect(browser).toHaveUrlContaining("/searchresults");
-  });
+  // it("Redirects the user to /searchresults page on button submit", () => {
+  //   browser.url(homepageUrl);
+  //   const submitButton = $(".submit-button");
+  //   submitButton.click();
+  //   expect(browser).toHaveUrlContaining("/searchresults");
+  // });
 
-  it("Has the correct main page information", () => {
-    browser.url(homepageUrl);
-    const input = $('[name="postcode"]');
-    input.addValue("W13 3RH");
-    const submitButton = $(".submit-button");
-    submitButton.click();
+  // it("Has the correct main page information", () => {
+  //   browser.url(homepageUrl);
+  //   const input = $('[name="postcode"]');
+  //   input.addValue("W13 3RH");
+  //   const submitButton = $(".submit-button");
+  //   submitButton.click();
 
-    const title = $("h1=Rstrnt Findr-r");
-    const header = $("h2=Restaurants near W13 3RH");
-    const orderByFilter = $(".list-options");
+  //   const title = $("h1=Rstrnt Findr-r");
+  //   const header = $("h2=Restaurants near W13 3RH");
+  //   const orderByFilter = $(".list-options");
 
-    expect(title).toBeDisplayed();
-    expect(header).toBeDisplayed();
-    expect(orderByFilter).toBeDisplayed();
-  });
+  //   expect(title).toBeDisplayed();
+  //   expect(header).toBeDisplayed();
+  //   expect(orderByFilter).toBeDisplayed();
+  // });
 
-  it("Has the ability for user to click dropdown menu", () => {
-    browser.url(homepageUrl);
-    const input = $('[name="postcode"]');
-    input.addValue("W13 3RH");
-    const submitButton = $(".submit-button");
-    submitButton.click();
-    const selectBox = $("#filter");
-    expect(selectBox.isClickable());
-  });
-
-  it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
+  it("Has the correct mocked data displayed", () => {
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
     input.addValue("W13 3RH");
     const submitButton = $(".submit-button");
     submitButton.click();
-    const selectBox = $("#filter");
-    const elem = $("h2=A 2 Zee's");
-    expect(elem).toBeVisibleInViewport();
-    selectBox.selectByAttribute("value", "rating");
-    const elemNotVisible = $("h2=A 2 Zee's");
-    expect(elemNotVisible).not.toBeVisibleInViewport();
-    selectBox.selectByAttribute("value", "nearest");
-    const elemVisible = $("h2=A 2 Zee's");
-    expect(elemVisible).toBeVisibleInViewport();
+
+    const restaurantCard = $("h2");
+    console.log("restaurant card", restaurantCard);
+    // const name = $("h2=A 2 Zee's");
+    // const tag = $("h2=Cafes");
+    // const price = $("");
+    // const rating =
+    // const address =
+
+    // expect(title).toBeDisplayed();
+    // expect(header).toBeDisplayed();
+    // expect(orderByFilter).toBeDisplayed();
   });
+
+  // it("Has the ability for user to click dropdown menu", () => {
+  //   browser.url(homepageUrl);
+  //   const input = $('[name="postcode"]');
+  //   input.addValue("W13 3RH");
+  //   const submitButton = $(".submit-button");
+  //   submitButton.click();
+  //   const selectBox = $("#filter");
+  //   expect(selectBox.isClickable());
+  // });
+
+  // it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
+  //   browser.url(homepageUrl);
+  //   const input = $('[name="postcode"]');
+  //   input.addValue("W13 3RH");
+  //   const submitButton = $(".submit-button");
+  //   submitButton.click();
+  //   const selectBox = $("#filter");
+  //   const elem = $("h2=A 2 Zee's");
+  //   expect(elem).toBeVisibleInViewport();
+  //   selectBox.selectByAttribute("value", "rating");
+  //   const elemNotVisible = $("h2=A 2 Zee's");
+  //   expect(elemNotVisible).not.toBeVisibleInViewport();
+  //   selectBox.selectByAttribute("value", "nearest");
+  //   const elemVisible = $("h2=A 2 Zee's");
+  //   expect(elemVisible).toBeVisibleInViewport();
+  // });
 });
