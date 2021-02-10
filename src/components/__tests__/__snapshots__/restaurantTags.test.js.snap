@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`displays the Restaurant tags correctly 1`] = `
-<div>
+<div
+  className="restaurant-tag"
+>
   <span
     className="text-grey"
   >
@@ -11,7 +13,9 @@ exports[`displays the Restaurant tags correctly 1`] = `
 `;
 
 exports[`displays the Restaurant tags correctly when multiple tags are passed in 1`] = `
-<div>
+<div
+  className="restaurant-tag"
+>
   <span
     className="text-grey"
   >

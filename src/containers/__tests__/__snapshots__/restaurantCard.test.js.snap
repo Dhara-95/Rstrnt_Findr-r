@@ -2,7 +2,7 @@
 
 exports[`displays a restaurant in its own component 1`] = `
 <div
-  className="flex m-4 ml-auto w-4/5"
+  className="restaurant-card flex m-4 ml-auto w-4/5"
 >
   <div>
     <div
@@ -22,11 +22,13 @@ exports[`displays a restaurant in its own component 1`] = `
       className="py-4"
     >
       <h2
-        className="text-grey text-xl"
+        className="restaurant-name text-grey text-xl"
       >
         A 2 Zee's
       </h2>
-      <div>
+      <div
+        className="restaurant-tag"
+      >
         <span
           className="text-grey"
         >
@@ -36,11 +38,13 @@ exports[`displays a restaurant in its own component 1`] = `
     </div>
     <div>
       <h2
-        className="text-grey"
+        className=" restaurant-price text-grey"
       >
         No price rating available
       </h2>
-      <div>
+      <div
+        className="restaurant-rating"
+      >
         <svg
           aria-hidden="true"
           className="svg-inline--fa fa-star fa-w-18 "
@@ -97,7 +101,7 @@ exports[`displays a restaurant in its own component 1`] = `
         </svg>
       </div>
       <span
-        className="text-grey"
+        className=" restaurant-address text-grey"
       >
         55 Manor Road, London W13 0LJ, United Kingdom
       </span>

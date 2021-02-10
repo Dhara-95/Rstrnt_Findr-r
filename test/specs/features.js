@@ -16,28 +16,28 @@ describe("Feature tests", () => {
     });
   });
 
-  // it("Redirects the user to /searchresults page on button submit", () => {
-  //   browser.url(homepageUrl);
-  //   const submitButton = $(".submit-button");
-  //   submitButton.click();
-  //   expect(browser).toHaveUrlContaining("/searchresults");
-  // });
+  it("Redirects the user to /searchresults page on button submit", () => {
+    browser.url(homepageUrl);
+    const submitButton = $(".submit-button");
+    submitButton.click();
+    expect(browser).toHaveUrlContaining("/searchresults");
+  });
 
-  // it("Has the correct main page information", () => {
-  //   browser.url(homepageUrl);
-  //   const input = $('[name="postcode"]');
-  //   input.addValue("W13 3RH");
-  //   const submitButton = $(".submit-button");
-  //   submitButton.click();
+  it("Has the correct main page information", () => {
+    browser.url(homepageUrl);
+    const input = $('[name="postcode"]');
+    input.addValue("W13 3RH");
+    const submitButton = $(".submit-button");
+    submitButton.click();
 
-  //   const title = $("h1=Rstrnt Findr-r");
-  //   const header = $("h2=Restaurants near W13 3RH");
-  //   const orderByFilter = $(".list-options");
+    const title = $("h1=Rstrnt Findr-r");
+    const header = $("h2=Restaurants near W13 3RH");
+    const orderByFilter = $(".list-options");
 
-  //   expect(title).toBeDisplayed();
-  //   expect(header).toBeDisplayed();
-  //   expect(orderByFilter).toBeDisplayed();
-  // });
+    expect(title).toBeDisplayed();
+    expect(header).toBeDisplayed();
+    expect(orderByFilter).toBeDisplayed();
+  });
 
   it("Has the correct mocked data displayed", () => {
     const elementXPath = "//*[@id='root']/div/div/div[4]";
@@ -49,20 +49,21 @@ describe("Feature tests", () => {
     submitButton.click();
 
     $(elementXPath).waitForExist();
-
     const restaurantCard = $(elementXPath);
-    console.log(restaurantCard.$("h2").getText());
-    // gives expected name of restaurant
 
-    // const name = $("h2=A 2 Zee's");
-    // const tag = $("h2=Cafes");
-    // const price = $("");
-    // const rating =
-    // const address =
+    const name = restaurantCard.$("h2.restaurant-name");
+    const tag = restaurantCard.$("div.restaurant-tag");
+    const price = restaurantCard.$("h2.restaurant-price");
+    const rating = restaurantCard.$("div.restaurant-rating");
+    const address = restaurantCard.$("span.restaurant-address");
 
-    // expect(title).toBeDisplayed();
-    // expect(header).toBeDisplayed();
-    // expect(orderByFilter).toBeDisplayed();
+    expect(name).toHaveText("Chic O Land");
+    expect(tag).toHaveText("Fast Food");
+    expect(price).toHaveText("£");
+    expect(rating).toHaveChildren(2);
+    expect(address).toHaveText(
+      "50 Drayton Green Road, London W13 8RY, United Kingdom"
+    );
   });
 
   // it("Has the ability for user to click dropdown menu", () => {

@@ -2,7 +2,7 @@
 
 exports[`displays the Restaurants Price rating correctly 1`] = `
 <h2
-  className="text-grey"
+  className=" restaurant-price text-grey"
 >
   £
 </h2>

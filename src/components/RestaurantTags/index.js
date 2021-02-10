@@ -4,7 +4,7 @@ const RestaurantTags = (props) => {
   const { tags } = props;
 
   return (
-    <div>
+    <div className="restaurant-tag">
       {tags.map((tag, index) => {
         return (
           <span className="text-grey" key={index}>

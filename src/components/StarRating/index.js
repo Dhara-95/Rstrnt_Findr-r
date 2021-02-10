@@ -8,7 +8,7 @@ const StarRating = (props) => {
   const iconList = createIconList(rating);
 
   return (
-    <div>
+    <div className="restaurant-rating">
       {iconList.map((icon, index) => {
         return <FontAwesomeIcon icon={icon} key={index} color="gold" />;
       })}
