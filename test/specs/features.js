@@ -91,30 +91,32 @@ describe("Feature tests", () => {
     expect(name3).toHaveText("Chic O Land");
   });
 
-  // it("Has the ability for user to click dropdown menu", () => {
-  //   browser.url(homepageUrl);
-  //   const input = $('[name="postcode"]');
-  //   input.addValue("W13 3RH");
-  //   const submitButton = $(".submit-button");
-  //   submitButton.click();
-  //   const selectBox = $("#filter");
-  //   expect(selectBox.isClickable());
-  // });
+  it("Changes the order of the mocked data as expected", () => {
+    browser.url(homepageUrl);
+    const input = $('[name="postcode"]');
+    input.addValue("W13 3RH");
+    const submitButton = $(".submit-button");
+    submitButton.click();
+    const selectBox = $("#filter");
 
-  // it("Has the ability to change the restaurant order based on rating or nearest to postcode", () => {
-  //   browser.url(homepageUrl);
-  //   const input = $('[name="postcode"]');
-  //   input.addValue("W13 3RH");
-  //   const submitButton = $(".submit-button");
-  //   submitButton.click();
-  //   const selectBox = $("#filter");
-  //   const elem = $("h2=A 2 Zee's");
-  //   expect(elem).toBeVisibleInViewport();
-  //   selectBox.selectByAttribute("value", "rating");
-  //   const elemNotVisible = $("h2=A 2 Zee's");
-  //   expect(elemNotVisible).not.toBeVisibleInViewport();
-  //   selectBox.selectByAttribute("value", "nearest");
-  //   const elemVisible = $("h2=A 2 Zee's");
-  //   expect(elemVisible).toBeVisibleInViewport();
-  // });
+    $(`${elementXPathBase}[2]`).waitForExist();
+    const defaultFirstRestaurantCard = $(`${elementXPathBase}[2]`);
+    const defaultFirstName = defaultFirstRestaurantCard.$(restaurantName);
+
+    expect(defaultFirstName).toHaveText("A 2 Zee's");
+
+    selectBox.selectByAttribute("value", "rating");
+    const highestRated = $(`${elementXPathBase}[2]`);
+    const highestRatedName = highestRated.$(restaurantName);
+
+    expect(highestRatedName).toHaveText("Hilltop Roti");
+
+    //confirm that we can go back to default order
+
+    selectBox.selectByAttribute("value", "nearest");
+    const nearestRestaurantCard = $(`${elementXPathBase}[2]`);
+    const nearestName = nearestRestaurantCard.$(restaurantName);
+
+    expect(nearestName).toHaveText("A 2 Zee's");
+  });
 });
