@@ -66,6 +66,29 @@ describe("Feature tests", () => {
     );
   });
 
+  it("Has mocked data ordered as expected", () => {
+    const elementXPathBase = "//*[@id='root']/div/div/div";
+
+    browser.url(homepageUrl);
+    const input = $('[name="postcode"]');
+    input.addValue("W13 3RH");
+    const submitButton = $(".submit-button");
+    submitButton.click();
+
+    $(`${elementXPathBase}[4]`).waitForExist();
+    const restaurantCard1 = $(`${elementXPathBase}[2]`);
+    const restaurantCard2 = $(`${elementXPathBase}[3]`);
+    const restaurantCard3 = $(`${elementXPathBase}[4]`);
+
+    const name1 = restaurantCard1.$("h2.restaurant-name");
+    const name2 = restaurantCard2.$("h2.restaurant-name");
+    const name3 = restaurantCard3.$("h2.restaurant-name");
+
+    expect(name1).toHaveText("A 2 Zee's");
+    expect(name2).toHaveText("Tophill Caribean");
+    expect(name3).toHaveText("Chic O Land");
+  });
+
   // it("Has the ability for user to click dropdown menu", () => {
   //   browser.url(homepageUrl);
   //   const input = $('[name="postcode"]');
