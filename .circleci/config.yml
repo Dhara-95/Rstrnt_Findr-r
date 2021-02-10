@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: blueimp/wdio
-      # circleci/node:14.15.4-browsers-legacy - old docker image
+      - image: circleci/node:14.15.4-browsers-legacy
+
     steps:
       - checkout
       # Download and cache dependencies

@@ -1,4 +1,4 @@
-import { business } from "../../__mocks__/dataMock";
+import { businesses } from "../../__mocks__/dataMock";
 
 describe("Feature tests", () => {
   const homepageUrl = "http://localhost:3000";
@@ -16,7 +16,7 @@ describe("Feature tests", () => {
         method: "post",
       }
     );
-    mockApiCall.respond(business, {
+    mockApiCall.respond(businesses, {
       statusCode: 200,
       fetchResponse: false,
     });
