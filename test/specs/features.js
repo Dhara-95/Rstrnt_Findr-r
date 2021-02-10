@@ -40,14 +40,20 @@ describe("Feature tests", () => {
   // });
 
   it("Has the correct mocked data displayed", () => {
+    const elementXPath = "//*[@id='root']/div/div/div[4]";
+
     browser.url(homepageUrl);
     const input = $('[name="postcode"]');
     input.addValue("W13 3RH");
     const submitButton = $(".submit-button");
     submitButton.click();
 
-    const restaurantCard = $("h2");
-    console.log("restaurant card", restaurantCard);
+    $(elementXPath).waitForExist();
+
+    const restaurantCard = $(elementXPath);
+    console.log(restaurantCard.$("h2").getText());
+    // gives expected name of restaurant
+
     // const name = $("h2=A 2 Zee's");
     // const tag = $("h2=Cafes");
     // const price = $("");
