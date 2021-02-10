@@ -2,7 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: yukinying/chrome-headless-browser-selenium
+      - image: alpeware/chrome-headless-trunk
+      # circleci/node:14.15.4-browsers-legacy - old docker image
     steps:
       - checkout
       # Download and cache dependencies
