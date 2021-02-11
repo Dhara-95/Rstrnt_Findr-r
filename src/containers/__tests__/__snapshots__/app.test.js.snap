@@ -2,7 +2,7 @@
 
 exports[`displays the App correctly 1`] = `
 <div
-  className="App container lg:w-4/5"
+  className="App container w-full lg:w-4/5 xl:w-3/4 2xl-w-3/4"
 >
   <h1
     className="text-5xl text-grey py-6"
