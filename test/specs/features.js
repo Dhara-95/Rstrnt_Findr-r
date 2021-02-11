@@ -9,19 +9,6 @@ describe("Feature tests", () => {
   const restaurantRating = "div.restaurant-rating";
   const restaurantAddress = "span.restaurant-address";
 
-  beforeEach(() => {
-    const mockApiCall = browser.mock(
-      "https://rstrnt-cors.herokuapp.com/https://api.yelp.com/v3/graphql",
-      {
-        method: "post",
-      }
-    );
-    mockApiCall.respond(businesses, {
-      statusCode: 200,
-      fetchResponse: false,
-    });
-  });
-
   it("Redirects the user to /searchresults page on button submit", () => {
     browser.url(homepageUrl);
     const submitButton = $(".submit-button");
@@ -110,8 +97,6 @@ describe("Feature tests", () => {
     const highestRatedName = highestRated.$(restaurantName);
 
     expect(highestRatedName).toHaveText("Hilltop Roti");
-
-    //confirm that we can go back to default order
 
     selectBox.selectByAttribute("value", "nearest");
     const nearestRestaurantCard = $(`${elementXPathBase}[2]`);
