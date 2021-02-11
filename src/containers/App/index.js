@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App container lg:w-4/5">
+    <div className="App container w-full lg:w-4/5 xl:w-3/4 2xl-w-3/4">
       <Header />
       <WebPageRoutes />
     </div>
