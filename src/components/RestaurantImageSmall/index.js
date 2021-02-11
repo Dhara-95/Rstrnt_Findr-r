@@ -7,7 +7,7 @@ const RestaurantImageSmall = (props) => {
   const src = checkInvalidImageURL(url);
 
   return (
-    <div className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center ">
+    <div className="flex w-100 h-100 rounded-3xl overflow-hidden relative justify-center content-center ">
       <img
         className="w-auto h-full block object-cover transform scale-130"
         src={src}
