@@ -10,7 +10,9 @@ const StarRating = (props) => {
   return (
     <div className="restaurant-rating">
       {iconList.map((icon, index) => {
-        return <FontAwesomeIcon icon={icon} key={index} color="gold" />;
+        return (
+          <FontAwesomeIcon icon={icon} key={index} color="gold" size="lg" />
+        );
       })}
     </div>
   );

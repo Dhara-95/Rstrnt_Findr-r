@@ -12,7 +12,7 @@ exports[`displays the Restaurants Star rating correctly for a half number rating
 >
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"
@@ -30,7 +30,7 @@ exports[`displays the Restaurants Star rating correctly for a half number rating
   </svg>
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"
@@ -48,7 +48,7 @@ exports[`displays the Restaurants Star rating correctly for a half number rating
   </svg>
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star-half fa-w-18 "
+    className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
     color="gold"
     data-icon="star-half"
     data-prefix="fas"
@@ -73,7 +73,7 @@ exports[`displays the Restaurants Star rating correctly for a whole number ratin
 >
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"
@@ -91,7 +91,7 @@ exports[`displays the Restaurants Star rating correctly for a whole number ratin
   </svg>
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"
@@ -109,7 +109,7 @@ exports[`displays the Restaurants Star rating correctly for a whole number ratin
   </svg>
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"
@@ -127,7 +127,7 @@ exports[`displays the Restaurants Star rating correctly for a whole number ratin
   </svg>
   <svg
     aria-hidden="true"
-    className="svg-inline--fa fa-star fa-w-18 "
+    className="svg-inline--fa fa-star fa-w-18 fa-lg "
     color="gold"
     data-icon="star"
     data-prefix="fas"

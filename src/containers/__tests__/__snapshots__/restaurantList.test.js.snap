@@ -31,9 +31,11 @@ exports[`displays a list of businesses correctly 1`] = `
     </select>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -45,10 +47,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -76,7 +78,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -94,7 +96,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -112,7 +114,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -136,12 +138,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -153,10 +168,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -184,7 +199,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -202,7 +217,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -226,12 +241,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -243,10 +271,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -274,7 +302,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -292,7 +320,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -310,7 +338,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -328,7 +356,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -352,12 +380,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -369,10 +410,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -405,7 +446,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -423,7 +464,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -441,7 +482,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -459,7 +500,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -477,7 +518,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -501,12 +542,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -518,10 +572,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -549,7 +603,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -567,7 +621,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -585,7 +639,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -603,7 +657,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -621,7 +675,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -645,12 +699,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -662,10 +729,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -693,7 +760,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -711,7 +778,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -729,7 +796,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -747,7 +814,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -771,12 +838,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -788,10 +868,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -829,7 +909,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -847,7 +927,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -865,7 +945,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -883,7 +963,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -907,12 +987,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -924,10 +1017,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -955,7 +1048,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -973,7 +1066,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -991,7 +1084,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1009,7 +1102,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1033,12 +1126,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1050,10 +1156,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1081,7 +1187,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1099,7 +1205,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1117,7 +1223,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1141,12 +1247,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1158,10 +1277,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1189,7 +1308,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1207,7 +1326,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1225,7 +1344,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1243,7 +1362,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1267,12 +1386,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1284,10 +1416,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1315,7 +1447,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1333,7 +1465,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1351,7 +1483,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -1375,12 +1507,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1392,10 +1537,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1423,7 +1568,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1441,7 +1586,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1459,7 +1604,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1477,7 +1622,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1495,7 +1640,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -1519,12 +1664,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1536,10 +1694,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1567,7 +1725,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1585,7 +1743,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1603,7 +1761,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1627,12 +1785,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1644,10 +1815,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1675,7 +1846,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1693,7 +1864,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1711,7 +1882,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1729,7 +1900,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -1753,12 +1924,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1770,10 +1954,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1801,7 +1985,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1825,12 +2009,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1842,10 +2039,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -1878,7 +2075,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1896,7 +2093,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1914,7 +2111,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1932,7 +2129,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -1956,12 +2153,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -1973,10 +2183,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -2004,7 +2214,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2022,7 +2232,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -2046,12 +2256,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -2063,10 +2286,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -2104,7 +2327,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2122,7 +2345,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2140,7 +2363,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2164,12 +2387,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -2181,10 +2417,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -2217,7 +2453,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2235,7 +2471,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2253,7 +2489,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2271,7 +2507,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star-half fa-w-18 "
+            className="svg-inline--fa fa-star-half fa-w-18 fa-lg "
             color="gold"
             data-icon="star-half"
             data-prefix="fas"
@@ -2295,12 +2531,25 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
   <div
-    className="restaurant-card flex m-4 ml-auto w-4/5"
+    className="restaurant-card flex mx-auto my-4 w-4/5"
   >
-    <div>
+    <div
+      className="w-1/5"
+    >
       <div
         className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
       >
@@ -2312,10 +2561,10 @@ exports[`displays a list of businesses correctly 1`] = `
       </div>
     </div>
     <div
-      className="text-left self-center pl-4"
+      className="flex flex-col text-left self-center w-1/2 space-y-4"
     >
       <div
-        className="py-4"
+        className="pb-4"
       >
         <h2
           className="restaurant-name text-grey text-xl"
@@ -2348,7 +2597,7 @@ exports[`displays a list of businesses correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2366,7 +2615,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2384,7 +2633,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2402,7 +2651,7 @@ exports[`displays a list of businesses correctly 1`] = `
           </svg>
           <svg
             aria-hidden="true"
-            className="svg-inline--fa fa-star fa-w-18 "
+            className="svg-inline--fa fa-star fa-w-18 fa-lg "
             color="gold"
             data-icon="star"
             data-prefix="fas"
@@ -2426,7 +2675,18 @@ exports[`displays a list of businesses correctly 1`] = `
         </span>
       </div>
     </div>
-    <div />
+    <div
+      className="flex items-center w-1/4"
+    >
+      <button
+        className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
+        onClick={[Function]}
+        type="button"
+        value="See restaurant"
+      >
+        See restaurant
+      </button>
+    </div>
   </div>
 </div>
 `;
