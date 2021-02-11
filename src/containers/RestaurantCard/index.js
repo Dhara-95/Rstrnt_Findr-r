@@ -24,12 +24,12 @@ const RestaurantCard = (props) => {
   const { seeRestaurantButton } = labels;
 
   return (
-    <div className="restaurant-card flex flex-wrap  mx-auto my-4 w-full xl:w-4/5 xl:flex-nowrap 2xl:w-4/5 2xl:flex-nowrap">
-      <div className="w-1/2 xl:w-1/5 2xl:w-1/5">
+    <div className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5">
+      <div className="flex justify-center w-1/5">
         <RestaurantImageSmall url={photos[0]} name={name} />
       </div>
 
-      <div className="flex flex-col w-full text-center self-center md:w-1/3 lg:w-1/3 xl:w-1/2 xl:text-left 2xl:w-1/2 2xl:text-left space-y-4 order-last xl:order-none 2xl:order-none">
+      <div className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4">
         <div className="pb-4">
           <RestaurantName name={name} />
 
