@@ -24,12 +24,12 @@ const RestaurantCard = (props) => {
   const { seeRestaurantButton } = labels;
 
   return (
-    <div className="restaurant-card flex m-4 ml-auto w-4/5">
-      <div>
+    <div className="restaurant-card flex mx-auto my-4 w-4/5">
+      <div className="w-1/5">
         <RestaurantImageSmall url={photos[0]} name={name} />
       </div>
-      <div className="text-left self-center pl-4">
-        <div className="py-4">
+      <div className="flex flex-col text-left self-center w-1/2 space-y-4">
+        <div className="pb-4">
           <RestaurantName name={name} />
 
           <RestaurantTags tags={categories} />
@@ -42,7 +42,7 @@ const RestaurantCard = (props) => {
           <SingleLineAddress address={formatted_address} />
         </div>
       </div>
-      <div>
+      <div className="flex items-center w-1/4">
         <SubmitButton label={seeRestaurantButton} history={null} route={null} />
       </div>
     </div>
