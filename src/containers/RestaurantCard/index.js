@@ -7,7 +7,9 @@ import {
   RestaurantTags,
   SingleLineAddress,
   StarRating,
+  SubmitButton,
 } from "../../components";
+import { labels } from "../../Labels";
 
 const RestaurantCard = (props) => {
   const {
@@ -19,6 +21,7 @@ const RestaurantCard = (props) => {
     location,
   } = props.restaurant;
   const { formatted_address } = location;
+  const { seeRestaurantButton } = labels;
 
   return (
     <div className="restaurant-card flex m-4 ml-auto w-4/5">
@@ -39,7 +42,9 @@ const RestaurantCard = (props) => {
           <SingleLineAddress address={formatted_address} />
         </div>
       </div>
-      <div>{/* Will hold the button */}</div>
+      <div>
+        <SubmitButton label={seeRestaurantButton} history={null} route={null} />
+      </div>
     </div>
   );
 };

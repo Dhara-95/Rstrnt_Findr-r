@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FilterResults } from "../../components/FilterResults";
+import { FilterResults } from "../../components";
 import { RestaurantCard } from "../index";
 
 const RestaurantList = (props) => {

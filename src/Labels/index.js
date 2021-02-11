@@ -9,6 +9,7 @@ const labels = {
   orderBy: "Order by:",
   nearestFilter: "Nearest to you",
   ratingFilter: "By rating",
+  seeRestaurantButton: "See restaurant",
 };
 
 export { labels };
