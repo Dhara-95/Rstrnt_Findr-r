@@ -18,4 +18,5 @@ body {
 
 .list-options > select {
   text-align-last: center;
+  background: white url("./images/down-arrow.svg") no-repeat 95% center/ 1.5rem;
 }
