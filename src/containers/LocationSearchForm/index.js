@@ -5,10 +5,8 @@ import { labels } from "../../Labels";
 import { SubmitButton } from "../../components";
 
 const LocationSearchForm = (props) => {
-  const { setUserInput } = props;
-  const { findRestaurants, findButton, searchResultURL } = labels;
-
-  const history = useHistory();
+  const { setUserInput, handleFetch } = props;
+  const { findRestaurants, findButton } = labels;
 
   return (
     <div className="py-8 flex flex-col lg:justify-around lg:flex-row xl:justify-around xl:flex-row 2xl:justify-around 2xl:flex-row items-center w-1/2 mx-auto">
@@ -21,11 +19,7 @@ const LocationSearchForm = (props) => {
           type="text"
           placeholder="W13 3RH"
         />
-        <SubmitButton
-          label={findButton}
-          history={history}
-          route={searchResultURL}
-        />
+        <SubmitButton label={findButton} handleFetch={handleFetch} />
       </div>
     </div>
   );
