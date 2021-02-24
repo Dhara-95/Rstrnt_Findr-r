@@ -5,26 +5,22 @@ exports[`displays a restaurant in its own component 1`] = `
   className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
 >
   <div
-    className="flex justify-center w-1/5"
+    className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
   >
-    <div
-      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-    >
-      <img
-        alt="A 2 Zee's"
-        className="w-auto h-full block object-cover transform scale-130"
-        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-      />
-    </div>
+    <img
+      alt="A 2 Zee's"
+      className="w-auto h-full block object-cover transform scale-130"
+      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+    />
   </div>
   <div
-    className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+    className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
   >
     <div
       className="pb-4"
     >
       <h2
-        className="restaurant-name text-grey text-xl"
+        className="restaurant-name text-white text-xl"
       >
         A 2 Zee's
       </h2>

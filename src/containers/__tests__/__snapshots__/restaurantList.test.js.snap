@@ -13,7 +13,7 @@ exports[`displays a list of businesses correctly 1`] = `
       Order by:
     </h2>
     <select
-      className="rounded-full w-full lg:w-1/2 xl:w-1/2 2xl:w-1/3 h-8"
+      className="appearance-none rounded-full w-full bg-white lg:w-1/2 xl:w-1/2 2xl:w-1/3 h-8"
       id="filter"
       name="filter"
       onChange={[Function]}
@@ -34,26 +34,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="A 2 Zee's"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="A 2 Zee's"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           A 2 Zee's
         </h2>
@@ -155,26 +151,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Chic O Land"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Chic O Land"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Chic O Land
         </h2>
@@ -258,26 +250,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Tophill Caribean"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Tophill Caribean"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Tophill Caribean
         </h2>
@@ -397,26 +385,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Café Leemoo"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
-        />
-      </div>
+      <img
+        alt="Café Leemoo"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media1.fl.yelpcdn.com/bphoto/DJdYE-wD6xNjKav0GmbgKA/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Café Leemoo
         </h2>
@@ -559,26 +543,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Hilltop Roti"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
-        />
-      </div>
+      <img
+        alt="Hilltop Roti"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media1.fl.yelpcdn.com/bphoto/UKJka59PHw1KLvjIE2kvvA/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Hilltop Roti
         </h2>
@@ -716,26 +696,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Subway"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Subway"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Subway
         </h2>
@@ -855,26 +831,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="German Doner Kebab"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
-        />
-      </div>
+      <img
+        alt="German Doner Kebab"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media3.fl.yelpcdn.com/bphoto/MDZkA6C7WULfk1lcIQcOyw/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           German Doner Kebab
         </h2>
@@ -1004,26 +976,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Abu Zaad"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
-        />
-      </div>
+      <img
+        alt="Abu Zaad"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media4.fl.yelpcdn.com/bphoto/9WkqiZ3m3Am13yQgdCGTfA/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Abu Zaad
         </h2>
@@ -1143,26 +1111,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Chicken Shop"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
-        />
-      </div>
+      <img
+        alt="Chicken Shop"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media3.fl.yelpcdn.com/bphoto/VyVo71R6O1eOr7uuUhZMlg/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Chicken Shop
         </h2>
@@ -1264,26 +1228,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Perfect Fried Chicken"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
-        />
-      </div>
+      <img
+        alt="Perfect Fried Chicken"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media4.fl.yelpcdn.com/bphoto/CbrYlCY2-BfGpkoE7DwoiA/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Perfect Fried Chicken
         </h2>
@@ -1403,26 +1363,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Spicy King"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Spicy King"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Spicy King
         </h2>
@@ -1524,26 +1480,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Ealing Mangal Restaurant"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
-        />
-      </div>
+      <img
+        alt="Ealing Mangal Restaurant"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media3.fl.yelpcdn.com/bphoto/hdY-1cql-NaRGcM-nMXQDw/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Ealing Mangal Restaurant
         </h2>
@@ -1681,26 +1633,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Lahore Village Tandoori Restaurant"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Lahore Village Tandoori Restaurant"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Lahore Village Tandoori Restaurant
         </h2>
@@ -1802,26 +1750,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Gospoda Vita"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Gospoda Vita"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Gospoda Vita
         </h2>
@@ -1941,26 +1885,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Y Ariba Y Ariba"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Y Ariba Y Ariba"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Y Ariba Y Ariba
         </h2>
@@ -2026,26 +1966,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Ealing Kebab"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="Ealing Kebab"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Ealing Kebab
         </h2>
@@ -2170,26 +2106,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="China Garden"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
-        />
-      </div>
+      <img
+        alt="China Garden"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media1.fl.yelpcdn.com/bphoto/xJlkSor1LAgNm7tcXw278Q/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           China Garden
         </h2>
@@ -2273,26 +2205,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="KFC"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
-        />
-      </div>
+      <img
+        alt="KFC"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           KFC
         </h2>
@@ -2404,26 +2332,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Silva Caribbean and Latin American Cuisine"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
-        />
-      </div>
+      <img
+        alt="Silva Caribbean and Latin American Cuisine"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media2.fl.yelpcdn.com/bphoto/duOBkplrtGU3x7i46tSELQ/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Silva Caribbean and Latin American Cuisine
         </h2>
@@ -2548,26 +2472,22 @@ exports[`displays a list of businesses correctly 1`] = `
     className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5"
   >
     <div
-      className="flex justify-center w-1/5"
+      className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
     >
-      <div
-        className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
-      >
-        <img
-          alt="Ealing Balti House"
-          className="w-auto h-full block object-cover transform scale-130"
-          src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"
-        />
-      </div>
+      <img
+        alt="Ealing Balti House"
+        className="w-auto h-full block object-cover transform scale-130"
+        src="https://s3-media3.fl.yelpcdn.com/bphoto/qY-rtSnUv33SySwXv6QLhQ/o.jpg"
+      />
     </div>
     <div
-      className="flex flex-col w-full text-left self-center md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
+      className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4"
     >
       <div
         className="pb-4"
       >
         <h2
-          className="restaurant-name text-grey text-xl"
+          className="restaurant-name text-white text-xl"
         >
           Ealing Balti House
         </h2>
