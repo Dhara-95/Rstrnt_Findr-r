@@ -30,7 +30,7 @@ An web application to find and review restaurants using the [Yelp API](https://w
 
 - User inputs an address/postcode and on submit, is shown a list of nearby restaurants on Search Results page.
 
-- User can click on a specific restaurant and is shown additional details including a map and reviews, on Restaurant page. 
+- User can click on a specific restaurant and is shown additional details including a map and reviews, on Restaurant page.
 
 ## App Installation
 
@@ -42,12 +42,18 @@ $ yarn install
 
 ### `yarn start`
 
-To start up the server on local computer. 
+To start up the server on local computer.
 
 To visit app hosted on [Netlify](https://www.netlify.com/), visit https://rstrnt-findr-r.netlify.app/.
 
-
 ### `yarn test`
 
-To test application. 
+To run Webdriver tests
 
+### `yarn jest:test`
+
+To run all Jest tests
+
+### `yarn snap:update`
+
+To updated all snapshot files
