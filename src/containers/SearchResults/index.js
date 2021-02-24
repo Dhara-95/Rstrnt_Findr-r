@@ -32,7 +32,11 @@ const SearchResults = (props) => {
     <>
       <RestaurantsNear userInput={userInput} />
       {isLoading && <LoadingConfirmation />}
-      <RestaurantList data={restaurantData} handleOnChange={handleOnChange} />
+      <RestaurantList
+        data={restaurantData}
+        handleOnChange={handleOnChange}
+        isLoading={isLoading}
+      />
     </>
   );
 };
