@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import { filterByRating } from "../../utils/filterByRating";
 import { labels } from "../../Labels";
 import { Homepage, SearchResults, RestaurantDetail } from "../index";
+import { returnSingleRestaurant } from "../../utils/returnSingleRestaurant";
 import { yelp } from "../../utils/fetchRestaurantData";
 
 const WebPageRoutes = () => {
@@ -21,7 +22,7 @@ const WebPageRoutes = () => {
     if (value === findButton) {
       handleFetch();
     } else {
-      console.log(value);
+      console.log(returnSingleRestaurant(restaurantData, value));
     }
   };
 
