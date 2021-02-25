@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 import { filterByRating } from "../../utils/filterByRating";
 import { labels } from "../../Labels";
 import { Homepage, SearchResults, RestaurantDetail } from "../index";
+import { formatRestaurantName } from "../../utils/formatRestaurantName";
 import { returnSingleRestaurant } from "../../utils/returnSingleRestaurant";
 import { yelp } from "../../utils/fetchRestaurantData";
 
@@ -14,7 +15,7 @@ const WebPageRoutes = () => {
   const [isLoading, updateLoadingState] = useState(false);
   const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState([]);
 
-  const { searchResultURL, findButton } = labels;
+  const { searchResultURL, findButton, resturantDetailURL } = labels;
 
   const history = useHistory();
 
@@ -22,7 +23,11 @@ const WebPageRoutes = () => {
     if (value === findButton) {
       handleFetch();
     } else {
-      console.log(returnSingleRestaurant(restaurantData, value));
+      const singleRestaurant = returnSingleRestaurant(restaurantData, value);
+      const formattedRestaurantName = formatRestaurantName(
+        singleRestaurant.name
+      );
+      history.push(resturantDetailURL + formattedRestaurantName);
     }
   };
 
