@@ -13,9 +13,17 @@ const WebPageRoutes = () => {
   const [isLoading, updateLoadingState] = useState(false);
   const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState([]);
 
-  const { searchResultURL } = labels;
+  const { searchResultURL, findButton } = labels;
 
   const history = useHistory();
+
+  const handleButtonClick = (value) => {
+    if (value === findButton) {
+      handleFetch();
+    } else {
+      console.log(value);
+    }
+  };
 
   const handleFetch = () => {
     history.push(searchResultURL);
@@ -34,17 +42,16 @@ const WebPageRoutes = () => {
     updateRestaurantData(actionList[action]);
   };
 
-  const handleButtonClick = (value) => {
-    console.log(value);
-  };
-
   return (
     <Switch>
       <Route
         path={"/"}
         exact
         render={() => (
-          <Homepage setUserInput={setUserInput} handleFetch={handleFetch} />
+          <Homepage
+            setUserInput={setUserInput}
+            handleButtonClick={handleButtonClick}
+          />
         )}
       />
       <Route
