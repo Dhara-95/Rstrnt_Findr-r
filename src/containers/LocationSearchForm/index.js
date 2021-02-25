@@ -18,7 +18,11 @@ const LocationSearchForm = (props) => {
           type="text"
           placeholder="W13 3RH"
         />
-        <SubmitButton label={findButton} handleFetch={handleFetch} />
+        <SubmitButton
+          label={findButton}
+          value={findButton}
+          handleFetch={handleFetch}
+        />
       </div>
     </div>
   );

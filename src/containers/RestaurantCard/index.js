@@ -19,9 +19,11 @@ const RestaurantCard = (props) => {
     price,
     rating,
     location,
+    id,
   } = props.restaurant;
   const { formatted_address } = location;
   const { seeRestaurantButton } = labels;
+  const { handleButtonClick } = props;
 
   return (
     <div className="restaurant-card flex mx-auto my-4 w-full xl:w-4/5 2xl:w-4/5">
@@ -43,7 +45,11 @@ const RestaurantCard = (props) => {
       </div>
 
       <div className="flex items-center justify-center w-1/2 lg:w-1/4 xl:w-1/4 2xl:w-1/4">
-        <SubmitButton label={seeRestaurantButton} history={null} route={null} />
+        <SubmitButton
+          label={seeRestaurantButton}
+          value={id}
+          handleFetch={handleButtonClick}
+        />
       </div>
     </div>
   );

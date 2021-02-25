@@ -4,7 +4,13 @@ import { LoadingConfirmation, RestaurantsNear } from "../../components";
 import { RestaurantList } from "../index";
 
 const SearchResults = (props) => {
-  const { userInput, isLoading, data, handleOnChange } = props;
+  const {
+    userInput,
+    isLoading,
+    data,
+    handleOnChange,
+    handleButtonClick,
+  } = props;
 
   return (
     <>
@@ -14,6 +20,7 @@ const SearchResults = (props) => {
         data={data}
         handleOnChange={handleOnChange}
         isLoading={isLoading}
+        handleButtonClick={handleButtonClick}
       />
     </>
   );
