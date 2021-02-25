@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import { filterByRating } from "../../utils/filterByRating";
 import { labels } from "../../Labels";
-import { Homepage, SearchResults } from "../index";
+import { Homepage, SearchResults, RestaurantDetail } from "../index";
 import { yelp } from "../../utils/fetchRestaurantData";
 
 const WebPageRoutes = () => {
@@ -54,6 +54,11 @@ const WebPageRoutes = () => {
             handleOnChange={handleOnChange}
           />
         )}
+      />
+      <Route
+        path={"/restaurant/:name"}
+        exact
+        render={() => <RestaurantDetail />}
       />
     </Switch>
   );

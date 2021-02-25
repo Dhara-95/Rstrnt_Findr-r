@@ -7,3 +7,4 @@ export * from "./RestaurantCard";
 export * from "./RestaurantList";
 export * from "./SearchResults";
 export * from "./WebpageRoutes";
+export * from "./RestaurantDetail";
