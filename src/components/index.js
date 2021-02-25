@@ -1,5 +1,6 @@
 export * from "./CuisineImage";
 export * from "./FilterResults";
+export * from "./RestaurantLocationMap";
 export * from "./Header";
 export * from "./LoadingConfirmation";
 export * from "./RestaurantImageSmall";

@@ -14,8 +14,9 @@ const WebPageRoutes = () => {
   const [restaurantData, updateRestaurantData] = useState([]);
   const [isLoading, updateLoadingState] = useState(false);
   const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState([]);
+  const [singleRestaurant, updateSingleRestaurant] = useState({});
 
-  const { searchResultURL, findButton, resturantDetailURL } = labels;
+  const { searchResultURL, findButton, restaurantDetailURL } = labels;
 
   const history = useHistory();
 
@@ -23,11 +24,12 @@ const WebPageRoutes = () => {
     if (value === findButton) {
       handleFetch();
     } else {
-      const singleRestaurant = returnSingleRestaurant(restaurantData, value);
+      const returnedRestaurant = returnSingleRestaurant(restaurantData, value);
       const formattedRestaurantName = formatRestaurantName(
-        singleRestaurant.name
+        returnedRestaurant.name
       );
-      history.push(resturantDetailURL + formattedRestaurantName);
+      history.push(restaurantDetailURL + formattedRestaurantName);
+      updateSingleRestaurant(returnedRestaurant);
     }
   };
 
@@ -76,7 +78,7 @@ const WebPageRoutes = () => {
       <Route
         path={"/restaurant/:name"}
         exact
-        render={() => <RestaurantDetail />}
+        render={() => <RestaurantDetail restaurant={singleRestaurant} />}
       />
     </Switch>
   );
