@@ -1,3 +1,4 @@
+import { businesses } from "../mocks/dataMock";
 import { RESTAURANT_BY_POSTCODE } from "../queries";
 
 class ApiCall {
@@ -23,6 +24,7 @@ class ApiCall {
     } catch (error) {
       console.log("There was an error with the fetch: " + error);
     }
+
     updateLoadingState(false);
   }
 

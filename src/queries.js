@@ -2,6 +2,7 @@ const RESTAURANT_BY_POSTCODE = `
   query Search($postcode: String) {
     search(term: "restaurants", location: $postcode, limit: 20, sort_by: "distance") {
       business {
+        id
         name
         categories {
           title

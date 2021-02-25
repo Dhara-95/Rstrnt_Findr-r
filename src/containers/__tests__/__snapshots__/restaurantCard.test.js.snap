@@ -8,9 +8,9 @@ exports[`displays a restaurant in its own component 1`] = `
     className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
   >
     <img
-      alt="A 2 Zee's"
+      alt="Apsley Chinese"
       className="w-auto h-full block object-cover transform scale-130"
-      src="https://www.westernheights.k12.ok.us/wp-content/uploads/2020/01/No-Photo-Available.jpg"
+      src="https://s3-media2.fl.yelpcdn.com/bphoto/Bi7qfNYABueKOvQZsdhF3g/o.jpg"
     />
   </div>
   <div
@@ -22,7 +22,7 @@ exports[`displays a restaurant in its own component 1`] = `
       <h2
         className="restaurant-name text-white text-xl"
       >
-        A 2 Zee's
+        Apsley Chinese
       </h2>
       <div
         className="restaurant-tag"
@@ -30,7 +30,7 @@ exports[`displays a restaurant in its own component 1`] = `
         <span
           className="text-grey"
         >
-          Cafes
+          Fast Food
         </span>
       </div>
     </div>
@@ -97,11 +97,47 @@ exports[`displays a restaurant in its own component 1`] = `
             style={Object {}}
           />
         </svg>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-star fa-w-18 fa-lg "
+          color="gold"
+          data-icon="star"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-star fa-w-18 fa-lg "
+          color="gold"
+          data-icon="star"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
       </div>
       <span
         className=" restaurant-address text-grey"
       >
-        55 Manor Road, London W13 0LJ, United Kingdom
+        28 London Road, Hemel Hempstead HP3 9SB, United Kingdom
       </span>
     </div>
   </div>
@@ -112,7 +148,7 @@ exports[`displays a restaurant in its own component 1`] = `
       className="submit-button rounded py-2 px-8 bg-teal hover:bg-teal-hover active:bg-teal-click focus:outline-none"
       onClick={[Function]}
       type="button"
-      value="See restaurant"
+      value="OV4Lnl9UwUPi4W9tRwbqzA"
     >
       See restaurant
     </button>
