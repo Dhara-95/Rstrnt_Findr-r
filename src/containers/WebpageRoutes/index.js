@@ -25,11 +25,11 @@ const WebPageRoutes = () => {
       handleFetch();
     } else {
       const returnedRestaurant = returnSingleRestaurant(restaurantData, value);
+      updateSingleRestaurant(returnedRestaurant);
       const formattedRestaurantName = formatRestaurantName(
         returnedRestaurant.name
       );
       history.push(restaurantDetailURL + formattedRestaurantName);
-      updateSingleRestaurant(returnedRestaurant);
     }
   };
 

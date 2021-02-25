@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays a map with restaurant location 1`] = `
+<div
+  className="mx-auto"
+/>
+`;
