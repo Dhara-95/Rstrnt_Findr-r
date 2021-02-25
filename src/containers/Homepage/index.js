@@ -3,13 +3,13 @@ import React from "react";
 import { CuisineListContainer, LocationSearchForm } from "../index";
 
 const Homepage = (props) => {
-  const { setUserInput, handleFetch } = props;
+  const { setUserInput, handleButtonClick } = props;
 
   return (
     <>
       <LocationSearchForm
         setUserInput={setUserInput}
-        handleFetch={handleFetch}
+        handleButtonClick={handleButtonClick}
       />
       <CuisineListContainer />
     </>

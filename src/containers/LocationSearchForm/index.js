@@ -4,7 +4,7 @@ import { labels } from "../../Labels";
 import { SubmitButton } from "../../components";
 
 const LocationSearchForm = (props) => {
-  const { setUserInput, handleFetch } = props;
+  const { setUserInput, handleButtonClick } = props;
   const { findRestaurants, findButton } = labels;
 
   return (
@@ -21,7 +21,7 @@ const LocationSearchForm = (props) => {
         <SubmitButton
           label={findButton}
           value={findButton}
-          handleFetch={handleFetch}
+          handleButtonClick={handleButtonClick}
         />
       </div>
     </div>

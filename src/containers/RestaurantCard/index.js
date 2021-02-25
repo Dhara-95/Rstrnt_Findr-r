@@ -48,7 +48,7 @@ const RestaurantCard = (props) => {
         <SubmitButton
           label={seeRestaurantButton}
           value={id}
-          handleFetch={handleButtonClick}
+          handleButtonClick={handleButtonClick}
         />
       </div>
     </div>
