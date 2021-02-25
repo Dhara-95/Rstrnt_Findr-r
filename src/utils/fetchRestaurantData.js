@@ -1,4 +1,3 @@
-import { businesses } from "../mocks/dataMock";
 import { RESTAURANT_BY_POSTCODE } from "../queries";
 
 class ApiCall {
