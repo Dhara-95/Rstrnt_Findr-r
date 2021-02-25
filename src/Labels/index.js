@@ -10,6 +10,7 @@ const labels = {
   nearestFilter: "Nearest to you",
   ratingFilter: "By rating",
   seeRestaurantButton: "See restaurant",
+  resturantDetailURL: "/restaurant/",
 };
 
 export { labels };
