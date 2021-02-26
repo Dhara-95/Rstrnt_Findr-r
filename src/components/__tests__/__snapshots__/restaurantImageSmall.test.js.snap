@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`displays the Restaurant name correctly 1`] = `
+exports[`displays the small Restaurant image correctly 1`] = `
 <div
   className="flex w-48 h-48 rounded-3xl overflow-hidden relative justify-center content-center "
 >
