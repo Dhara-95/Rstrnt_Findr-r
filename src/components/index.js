@@ -3,6 +3,7 @@ export * from "./FilterResults";
 export * from "./RestaurantLocationMap";
 export * from "./Header";
 export * from "./LoadingConfirmation";
+export * from "./RestaurantImageLarge";
 export * from "./RestaurantImageSmall";
 export * from "./RestaurantName";
 export * from "./RestaurantPrice";
