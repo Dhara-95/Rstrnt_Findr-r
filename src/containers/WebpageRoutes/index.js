@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-import { labels } from "../../Labels";
+import { labels, urlLabels } from "../../Labels";
 import { Homepage, SearchResults, RestaurantDetail } from "../index";
 import {
   filterByRating,
@@ -18,7 +18,8 @@ const WebPageRoutes = () => {
   const [defaultRestaurantOrder, applyDefaultRestaurantOrder] = useState([]);
   const [singleRestaurant, updateSingleRestaurant] = useState({});
 
-  const { searchResultURL, findButton, restaurantDetailURL } = labels;
+  const { findButton } = labels;
+  const { searchResultURL, restaurantDetailURL } = urlLabels;
 
   const history = useHistory();
 
