@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 const RestaurantLocationMap = (props) => {
   const { latitude, longitude } = props.coordinates;
   const { name } = props;
+
   return (
     <MapContainer
       className="mx-auto"
