@@ -1,6 +1,6 @@
 import React from "react";
 
-import { formatAddress } from "../../utils/formatAddress";
+import { formatAddress } from "../../utils";
 
 const SingleLineAddress = (props) => {
   const { address } = props;
