@@ -85,7 +85,12 @@ const WebPageRoutes = () => {
       <Route
         path={"/restaurant/:name"}
         exact
-        render={() => <RestaurantDetail restaurant={singleRestaurant} />}
+        render={() => (
+          <RestaurantDetail
+            restaurant={singleRestaurant}
+            postcode={userInput}
+          />
+        )}
       />
     </Switch>
   );

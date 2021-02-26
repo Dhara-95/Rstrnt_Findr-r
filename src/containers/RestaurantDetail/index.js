@@ -1,14 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-import { RestaurantLocationMap, RestaurantImageLarge } from "../../components";
+import { labels } from "../../Labels";
+import { RestaurantLocationMap } from "../../components";
 
 const RestaurantDetail = (props) => {
-  const { coordinates, name, photos } = props.restaurant;
+  const { coordinates, name } = props.restaurant;
+  const { postcode } = props;
+  const { backLink } = labels;
 
   return (
     <>
-      <h2 className="text-grey">Restaurant Detail page</h2>
-      <RestaurantImageLarge url={photos[0]} name={name} />
+      <Link className="text-grey" to="/searchresults">
+        {backLink + postcode}
+      </Link>
+      ;<h2 className="text-grey">Restaurant Detail page</h2>
       <RestaurantLocationMap coordinates={coordinates} name={name} />
     </>
   );
