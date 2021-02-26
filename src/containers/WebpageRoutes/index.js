@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import { useHistory } from "react-router-dom";
 
-import { filterByRating } from "../../utils/filterByRating";
 import { labels } from "../../Labels";
 import { Homepage, SearchResults, RestaurantDetail } from "../index";
-import { formatRestaurantName } from "../../utils/formatRestaurantName";
-import { returnSingleRestaurant } from "../../utils/returnSingleRestaurant";
-import { yelp } from "../../utils/fetchRestaurantData";
+import {
+  filterByRating,
+  formatRestaurantName,
+  returnSingleRestaurant,
+  yelp,
+} from "../../utils";
 
 const WebPageRoutes = () => {
   const [userInput, setUserInput] = useState("");

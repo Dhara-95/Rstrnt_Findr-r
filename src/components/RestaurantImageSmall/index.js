@@ -1,6 +1,6 @@
 import React from "react";
 
-import { checkInvalidImageURL } from "../../utils/checkInvalidImageURL";
+import { checkInvalidImageURL } from "../../utils";
 
 const RestaurantImageSmall = (props) => {
   const { url, name } = props;
