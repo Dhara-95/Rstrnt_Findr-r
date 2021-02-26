@@ -9,6 +9,7 @@ const labels = {
   nearestFilter: "Nearest to you",
   ratingFilter: "By rating",
   seeRestaurantButton: "See restaurant",
+  backLink: "<< Back to see all restaurants for ",
 };
 
 export { labels };
