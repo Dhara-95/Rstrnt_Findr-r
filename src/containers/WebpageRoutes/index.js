@@ -27,18 +27,22 @@ const WebPageRoutes = () => {
     if (value === findButton) {
       handleFetch();
     } else {
-      const returnedRestaurant = returnSingleRestaurant(restaurantData, value);
-      updateSingleRestaurant(returnedRestaurant);
-      const formattedRestaurantName = formatRestaurantName(
-        returnedRestaurant.name
-      );
-      history.push(restaurantDetailURL + formattedRestaurantName);
+      handleSingleRestaurantRedirect(value);
     }
   };
 
   const handleFetch = () => {
     history.push(searchResultURL);
     yelp.getData(userInput, updateRestaurantData, updateLoadingState);
+  };
+
+  const handleSingleRestaurantRedirect = (value) => {
+    const returnedRestaurant = returnSingleRestaurant(restaurantData, value);
+    updateSingleRestaurant(returnedRestaurant);
+    const formattedRestaurantName = formatRestaurantName(
+      returnedRestaurant.name
+    );
+    history.push(restaurantDetailURL + formattedRestaurantName);
   };
 
   const handleOnChange = (action) => {
