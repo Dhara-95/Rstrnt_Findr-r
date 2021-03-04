@@ -25,15 +25,27 @@ const RestaurantDetail = (props) => {
 
   return (
     <>
-      <Link className="text-grey" to="/searchresults">
-        {`${backLink} ${postcode}`}
-      </Link>
-      <RestaurantName name={name} />
+      <div className="pb-16">
+        <Link className="text-grey" to="/searchresults">
+          {`${backLink} ${postcode}`}
+        </Link>
+      </div>
+
+      <RestaurantName name={name} textSize={"text-4xl"} />
+
       <RestaurantImageLarge url={photos[0]} name={name} />
-      <RestaurantTags tags={categories} />
+
+      <div className="pb-4">
+        <RestaurantTags tags={categories} />
+      </div>
+
       <RestaurantPrice price={price} />
-      <RestaurantLocationMap coordinates={coordinates} name={name} />
-      <h3 className="text-grey">{overallRating}</h3>
+
+      <div className="py-8">
+        <RestaurantLocationMap coordinates={coordinates} name={name} />
+      </div>
+
+      <h3 className="text-grey text-xl">{overallRating}</h3>
       <StarRating rating={rating} />
     </>
   );
