@@ -9,6 +9,7 @@ export * from "./RestaurantName";
 export * from "./RestaurantPrice";
 export * from "./RestaurantTags";
 export * from "./RestaurantsNear";
+export * from "./ReviewerName";
 export * from "./ReviewQuotes";
 export * from "./ReviewText";
 export * from "./SingleLineAddress";

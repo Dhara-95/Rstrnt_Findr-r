@@ -1,6 +1,11 @@
 import React from "react";
 
-import { ReviewQuotes, ReviewText, StarRating } from "../../components";
+import {
+  ReviewerName,
+  ReviewQuotes,
+  ReviewText,
+  StarRating,
+} from "../../components";
 
 const ReviewList = (props) => {
   const { reviews } = props;
@@ -15,10 +20,10 @@ const ReviewList = (props) => {
           <div className="text-grey w-2/3 mx-auto">
             <ReviewQuotes />
             <ReviewText text={text} />
-            <div className="flex justify-end">
+            <div className="flex flex-col items-end">
               <StarRating rating={rating} />
+              <ReviewerName name={name} />
             </div>
-            {name}
           </div>
         );
       })}
