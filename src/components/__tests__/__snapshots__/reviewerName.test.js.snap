@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays the reviewer's name correctly 1`] = `
+<p
+  className="text-grey text-xl"
+>
+  — name
+</p>
+`;
