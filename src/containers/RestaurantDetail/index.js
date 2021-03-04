@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { labels } from "../../Labels";
-import { RestaurantLocationMap } from "../../components";
+import { RestaurantLocationMap, RestaurantName } from "../../components";
 
 const RestaurantDetail = (props) => {
   const { coordinates, name } = props.restaurant;
@@ -14,7 +14,7 @@ const RestaurantDetail = (props) => {
       <Link className="text-grey" to="/searchresults">
         {`${backLink} ${postcode}`}
       </Link>
-      <h2 className="text-grey">Restaurant Detail page</h2>
+      <RestaurantName name={name} />
       <RestaurantLocationMap coordinates={coordinates} name={name} />
     </>
   );
