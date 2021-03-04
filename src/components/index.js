@@ -10,6 +10,7 @@ export * from "./RestaurantPrice";
 export * from "./RestaurantTags";
 export * from "./RestaurantsNear";
 export * from "./ReviewQuotes";
+export * from "./ReviewText";
 export * from "./SingleLineAddress";
 export * from "./StarRating";
 export * from "./SubmitButton";
