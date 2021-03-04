@@ -8,12 +8,20 @@ import {
   RestaurantName,
   RestaurantTags,
   RestaurantPrice,
+  StarRating,
 } from "../../components";
 
 const RestaurantDetail = (props) => {
-  const { coordinates, name, photos, categories, price } = props.restaurant;
+  const {
+    coordinates,
+    name,
+    photos,
+    categories,
+    price,
+    rating,
+  } = props.restaurant;
   const { postcode } = props;
-  const { backLink } = labels;
+  const { backLink, overallRating } = labels;
 
   return (
     <>
@@ -25,6 +33,8 @@ const RestaurantDetail = (props) => {
       <RestaurantTags tags={categories} />
       <RestaurantPrice price={price} />
       <RestaurantLocationMap coordinates={coordinates} name={name} />
+      <h3 className="text-grey">{overallRating}</h3>
+      <StarRating rating={rating} />
     </>
   );
 };
