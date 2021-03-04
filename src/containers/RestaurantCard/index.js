@@ -31,7 +31,7 @@ const RestaurantCard = (props) => {
 
       <div className="flex flex-col w-full text-left self-center px-4 md:w-1/3 lg:w-1/3 xl:w-1/2 2xl:w-1/2 space-y-4">
         <div className="pb-4">
-          <RestaurantName name={name} />
+          <RestaurantName name={name} textSize={"text-xl"} />
 
           <RestaurantTags tags={categories} />
         </div>
