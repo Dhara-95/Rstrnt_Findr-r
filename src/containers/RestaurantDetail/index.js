@@ -12,9 +12,9 @@ const RestaurantDetail = (props) => {
   return (
     <>
       <Link className="text-grey" to="/searchresults">
-        {backLink + postcode}
+        {`${backLink} ${postcode}`}
       </Link>
-      ;<h2 className="text-grey">Restaurant Detail page</h2>
+      <h2 className="text-grey">Restaurant Detail page</h2>
       <RestaurantLocationMap coordinates={coordinates} name={name} />
     </>
   );
