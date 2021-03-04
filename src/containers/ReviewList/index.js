@@ -17,12 +17,15 @@ const ReviewList = (props) => {
         const { name } = review.user;
 
         return (
-          <div className="text-grey w-2/3 mx-auto">
+          <div className="text-grey w-full mx-auto lg:w-1/2 xl:w-1/2 2xl:w-1/2 ">
             <ReviewQuotes />
-            <ReviewText text={text} />
-            <div className="flex flex-col items-end">
-              <StarRating rating={rating} />
-              <ReviewerName name={name} />
+
+            <div className="w-4/5 mx-auto">
+              <ReviewText text={text} />
+              <div className="flex flex-col items-end">
+                <StarRating rating={rating} />
+                <ReviewerName name={name} />
+              </div>
             </div>
           </div>
         );
