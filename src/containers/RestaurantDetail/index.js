@@ -7,10 +7,11 @@ import {
   RestaurantImageLarge,
   RestaurantName,
   RestaurantTags,
+  RestaurantPrice,
 } from "../../components";
 
 const RestaurantDetail = (props) => {
-  const { coordinates, name, photos, categories } = props.restaurant;
+  const { coordinates, name, photos, categories, price } = props.restaurant;
   const { postcode } = props;
   const { backLink } = labels;
 
@@ -22,6 +23,7 @@ const RestaurantDetail = (props) => {
       <RestaurantName name={name} />
       <RestaurantImageLarge url={photos[0]} name={name} />
       <RestaurantTags tags={categories} />
+      <RestaurantPrice price={price} />
       <RestaurantLocationMap coordinates={coordinates} name={name} />
     </>
   );
