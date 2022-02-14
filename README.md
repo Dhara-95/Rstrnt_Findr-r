@@ -28,7 +28,7 @@ A web application to find and review restaurants using the [Yelp API](https://ww
 
 - User inputs an address/postcode and on submit, is shown a list of nearby restaurants on Search Results page.
 
-- User can filter restaurants by distance to postcode or by star rating on Sear Results page.
+- User can filter restaurants by distance to postcode or by star rating on Search Results page.
 
 - User can click on a specific restaurant and is shown additional details including a map and reviews, on Restaurant page.
 
