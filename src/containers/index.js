@@ -5,7 +5,6 @@ export * from "./Homepage";
 export * from "./LocationSearchForm";
 export * from "./RestaurantCard";
 export * from "./RestaurantList";
-export * from "./ReviewList";
 export * from "./SearchResults";
 export * from "./WebpageRoutes";
 export * from "./RestaurantDetail";

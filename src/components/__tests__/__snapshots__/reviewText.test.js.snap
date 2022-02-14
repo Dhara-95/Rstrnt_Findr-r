@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`displays the reviewe text correctly 1`] = `
-<p
-  className="text-grey text-xl text-center font-bold"
->
-  text
-</p>
-`;

@@ -24,13 +24,11 @@ const businesses = [
         text:
           "Yummmmmmeeeee!\nFull sized ribs!\nTasty Singapore noodles.  \nPerfectly cooked chicken balls.\nTasty curry sauce. \nSpot on chow mien.",
         rating: 5,
-        user: { name: "Louie-Mae B." },
       },
       {
         text:
           "We go here on occasion and love it. Recently refurbed but still very small inside. Love their curry sauce and always friendly staff.",
         rating: 5,
-        user: { name: "jasondob1" },
       },
     ],
     coordinates: { latitude: 51.7375787, longitude: -0.4688423 },
@@ -58,7 +56,6 @@ const businesses = [
         text:
           "Great food. Friendly staff. Food portions reduced since credit crunch but still good quality.",
         rating: 4,
-        user: { name: "jasondob1" },
       },
     ],
     coordinates: { latitude: 51.7376153, longitude: -0.4689047 },
@@ -91,19 +88,16 @@ const businesses = [
         text:
           "Took a while to get seated although only one couple in front of us. \nOur table server was excellent, really spot on.\nThe salad buffet were served by staff...",
         rating: 3,
-        user: { name: "Louie-Mae B." },
       },
       {
         text:
           "Excellent food and amazing service. I recommend the Picanha, the Beef, Garlic Beef, Sausage, Chicken, and most of all the grilled pineapples!!! Christina is...",
         rating: 5,
-        user: { name: "Jude E." },
       },
       {
         text:
           "This place is amazing..best restaurant in this area. The buffet has such an amazing selection of vegetables and hot foods. Pao de queijo were fresh and...",
         rating: 5,
-        user: { name: "Jen A." },
       },
     ],
     coordinates: { latitude: 51.738442, longitude: -0.470451 },
@@ -133,7 +127,6 @@ const businesses = [
         text:
           "More than happy to order it from here again.\n\nWe've ordered a few times once it was quite runny, with a lot of sauce, but no grease, this time there was...",
         rating: 3,
-        user: { name: "Louie-Mae B." },
       },
     ],
     coordinates: { latitude: 51.7389005, longitude: -0.4712796 },
@@ -161,13 +154,11 @@ const businesses = [
         text:
           "I have been ordering takeaways from these guys for quite a time now. They are efficient, friendly and incredibly QUICK with the deliveries!!!\nIf you are...",
         rating: 5,
-        user: { name: "Michael I." },
       },
       {
         text:
           "Fantastic late-night takeaway with great pita and remarkable chips.  The pizza is alright but not spectacular.   So good and open so late.   And free...",
         rating: 4,
-        user: { name: "Juli M." },
       },
     ],
     coordinates: { latitude: 51.7390343, longitude: -0.4714636 },
@@ -195,7 +186,6 @@ const businesses = [
         text:
           "Sad to say but these guys get orders wrong all the time. Errors are made from new starters right through to managers.",
         rating: 1,
-        user: { name: "jasondob1" },
       },
     ],
     coordinates: {
@@ -228,19 +218,16 @@ const businesses = [
         text:
           "The atmosphere was good. The bar tenders were good. The beer was good. The food, not so great. This is definitely a great place for drinks being so close to...",
         rating: 3,
-        user: { name: "Becca L." },
       },
       {
         text:
           "Set in the expensive Apsley lock area, this place attracts an affluent crowd. The priced are quite high, but drinks are good here. Usually a wheat beer on...",
         rating: 5,
-        user: { name: "Duncan M." },
       },
       {
         text:
           "nice looking pub, gets busy and can sometimes be a bit of a chore getting a table downstairs in the bar area if you just want a drink and a snack. there is...",
         rating: 4,
-        user: { name: "marcwillmore" },
       },
     ],
     coordinates: { latitude: 51.733304, longitude: -0.4616731 },

@@ -10,7 +10,6 @@ import {
   RestaurantPrice,
   StarRating,
 } from "../../components";
-import { ReviewList } from "../index";
 
 const RestaurantDetail = (props) => {
   const {
@@ -20,7 +19,6 @@ const RestaurantDetail = (props) => {
     categories,
     price,
     rating,
-    reviews,
   } = props.restaurant;
   const { postcode } = props;
   const { backLink, overallRating } = labels;
@@ -49,7 +47,6 @@ const RestaurantDetail = (props) => {
 
       <h3 className="text-grey text-xl">{overallRating}</h3>
       <StarRating rating={rating} />
-      <ReviewList reviews={reviews} />
     </>
   );
 };
