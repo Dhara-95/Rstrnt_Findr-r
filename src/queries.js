@@ -23,6 +23,9 @@ const RESTAURANT_BY_POSTCODE = `
         reviews {
           text
           rating
+          user {
+            name
+          }
         }
         coordinates {
           latitude
