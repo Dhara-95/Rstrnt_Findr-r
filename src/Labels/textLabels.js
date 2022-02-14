@@ -10,6 +10,7 @@ const labels = {
   ratingFilter: "By rating",
   seeRestaurantButton: "See restaurant",
   backLink: "<< Back to see all restaurants for",
+  overallRating: "Overall Rating",
 };
 
 export { labels };
