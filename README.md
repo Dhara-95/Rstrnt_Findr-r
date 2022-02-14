@@ -1,8 +1,6 @@
 # Rstrnt Findr-r
 
-[![Dhara-95](https://circleci.com/gh/Dhara-95/Rstrnt_Findr-r.svg?style=svg)](https://rstrnt-findr-r.netlify.app/)
-
-An web application to find and review restaurants using the [Yelp API](https://www.yelp.com/developers/graphql/guides/intro).
+A web application to find nearby restaurants using the [Yelp API](https://www.yelp.com/developers/graphql/guides/intro).
 
 ## Contributors
 
@@ -30,7 +28,9 @@ An web application to find and review restaurants using the [Yelp API](https://w
 
 - User inputs an address/postcode and on submit, is shown a list of nearby restaurants on Search Results page.
 
-- User can click on a specific restaurant and is shown additional details including a map and reviews, on Restaurant page.
+- User can filter restaurants by distance and rating.
+
+- User can click on a specific restaurant and is shown additional details including a map, on Restaurant page.
 
 ## App Installation
 
@@ -49,7 +49,7 @@ $ yarn install
 
 To start up the server on local computer.
 
-To visit app hosted on [Netlify](https://www.netlify.com/), visit https://rstrnt-findr-r.netlify.app/.
+To visit app hosted on [Netlify](https://www.netlify.com/), visit https://rstrnt-findr-r.netlify.app/. (This reflects the version on the master branch of the repo).
 
 ### `yarn test`
 
