@@ -36,7 +36,7 @@ An web application to find and review restaurants using the [Yelp API](https://w
 
 ```
 $ git clone git@github.com:Dhara-95/Rstrnt_Findr-r.git
-$ cd Rstrnt_Findr-r (if not already in the correct project directory)
+$ cd Rstrnt_Findr-r *(if not already in the correct project directory)*
 $ yarn install
 ```
 
