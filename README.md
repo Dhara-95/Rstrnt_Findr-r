@@ -46,7 +46,7 @@ $ cd Rstrnt_Findr-r
 $ yarn install
 ```
 
-Create an `.env` file in the root of the directory and add in the following environmental vriables (these usually wouldn't be shared in the README.md but for the purpose of allowing access to the repository, these variables have been made public):
+Create an `.env` file in the root of the directory and add in the following environmental variables (these usually wouldn't be shared in the README.md but for the purpose of allowing access to the repository, these variables have been made public):
 
 ```
 REACT_APP_YELP_API_KEY = "Bearer hF7YyoGnZ9GAPrDZhCVzHZXvwBIKbgNlu1QZeXMXPmEiIkUprH_PlVaAI3Y5Q63zZ9pN2Vjh721hYp60J_EW2rvETiHGyswhbt60jkMvHvn4Bz9rPUBvfvethW4aYHYx"
@@ -69,11 +69,11 @@ To run all Jest tests
 
 ### `yarn snap:update`
 
-To updated all snapshot files
+To update all snapshot files
 
 ## Additional Project Information
 
-A [Trello board](https://trello.com/b/qxYpKKQG/rstrnt-findr-r) was used to keep a track of user stories that needed to be completed, as well as linking any useful resources in the first two lists.
+A [Trello board](https://trello.com/b/qxYpKKQG/rstrnt-findr-r) was used to keep track of user stories that needed to be completed, as well as linking any useful resources in the first two lists.
 
 Wireframes were used to mock up the designs of the application before building it - they can be accessed [here](https://drive.google.com/drive/folders/16KjinaPc-XQzGi7kFn0x5XL-VdGORJ12?usp=sharing).
 
@@ -81,4 +81,4 @@ Wireframes were used to mock up the designs of the application before building i
 
 Although the MVP as well as some additional features were built successfully, there is an additional user story that we did not manage to complete in the allocated timeframe.
 
-If we did have more time to work in the project we woud have liked to add functionality, which would allow the user to search restaurants by cuisine on the homepage (grey boxes currently on the homepage represent the placeholders for the different cuisine images that the user would have been able to filter by).
+If we did have more time to work on the project we would have liked to add functionality, which would allow the user to search restaurants by cuisine on the homepage (grey boxes currently on the homepage represent the placeholders for the different cuisine images that the user would have been able to filter by).
